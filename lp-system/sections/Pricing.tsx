@@ -37,7 +37,7 @@ export function Pricing({ copy, theme }: PricingProps) {
 
   return (
     <section id="pricing" data-section-id="pricing" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>
-      <CenteredLayout align="center">
+      <CenteredLayout>
         <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
           {copy.heading}
         </h2>

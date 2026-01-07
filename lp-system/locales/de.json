@@ -1,135 +1,134 @@
 {
   "example-lp": {
     "hero": {
-      "eyebrow": "Neue Plattform",
-      "title": "Bauen Sie bessere Produkte schneller",
-      "subtitle": "Die komplette Lösung für moderne Teams, um schneller zu liefern und besser zu skalieren.",
+      "eyebrow": "Landing Pages",
+      "title": "Hochwertige Landing Pages, schnell gebaut",
+      "subtitle": "Professionelle Landing Pages für Conversion, schnell umgesetzt.",
       "primaryCtaLabel": "Loslegen",
       "secondaryCtaLabel": "Mehr erfahren"
     },
     "socialProof": {
-      "label": "Vertraut von Teams bei"
     },
     "valueProps": {
       "heading": "Alles was Sie brauchen",
-      "subtitle": "Leistungsstarke Funktionen, die Ihnen beim Aufbau und der Skalierung helfen",
+      "subtitle": "Professionelle Landing Pages, die konvertieren",
       "items": [
         {
-          "title": "Schnell & Zuverlässig",
-          "body": "Gebaut für Leistung mit moderner Architektur und Best Practices."
+          "title": "Schnelle Umsetzung",
+          "body": "Ihre Landing Page geht innerhalb von Tagen, nicht Wochen, online."
         },
         {
-          "title": "Einfache Integration",
-          "body": "Verbinden Sie sich nahtlos mit Ihren bestehenden Tools und Workflows."
+          "title": "Conversion-Optimiert",
+          "body": "Gebaut mit bewährten Mustern, die Ergebnisse liefern."
         },
         {
-          "title": "24/7 Support",
-          "body": "Erhalten Sie Hilfe, wenn Sie sie brauchen, mit unserem engagierten Support-Team."
+          "title": "Vollständig Responsive",
+          "body": "Perfekt auf jedem Gerät, jeder Bildschirmgröße."
         }
       ]
     },
     "features": {
-      "heading": "Leistungsstarke Funktionen",
-      "subtitle": "Alles was Sie zum Erfolg brauchen",
+      "heading": "Gebaut für Ergebnisse",
+      "subtitle": "Alles, was Landing Pages zum Erfolg führt",
       "items": [
         {
-          "title": "Erweiterte Analysen",
-          "body": "Verfolgen Sie Ihre Metriken und treffen Sie datengestützte Entscheidungen mit umfassenden Analysen."
+          "title": "Conversion-Optimierte Struktur",
+          "body": "Jeder Abschnitt ist darauf ausgelegt, Besucher zu Ihrem Ziel zu führen."
         },
         {
-          "title": "Team-Zusammenarbeit",
-          "body": "Arbeiten Sie nahtlos zusammen mit integrierten Collaboration-Tools und Workflows."
+          "title": "Schnelle Ladezeiten",
+          "body": "Optimierter Code und Assets für sofortige Seitenladezeiten."
         },
         {
-          "title": "Sicher & Konform",
-          "body": "Sicherheit und Compliance auf Unternehmensniveau, um Ihre Daten sicher zu halten."
+          "title": "Klare, moderne Gestaltung",
+          "body": "Professionelle Ästhetik, die Vertrauen schafft und Engagement fördert."
         }
       ]
     },
     "deepDive": {
       "heading": "Wie es funktioniert",
-      "subtitle": "Starten Sie in wenigen Minuten mit unserem einfachen Prozess",
+      "subtitle": "Erhalten Sie Ihre Landing Page in drei einfachen Schritten",
       "steps": [
         {
-          "title": "Anmelden und verbinden",
-          "body": "Erstellen Sie Ihr Konto und verbinden Sie Ihre bestehenden Tools mit nur wenigen Klicks."
+          "title": "Anforderungen mitteilen",
+          "body": "Teilen Sie uns mit, was Sie benötigen, und wir finden die passende Struktur."
         },
         {
-          "title": "Arbeitsbereich konfigurieren",
-          "body": "Passen Sie Ihre Einstellungen und Präferenzen an den Workflow Ihres Teams an."
+          "title": "Wir bauen Ihre Seite",
+          "body": "Unser Team erstellt Ihre Landing Page mit Ihrem Content und Branding."
         },
         {
-          "title": "Zusammenarbeit beginnen",
-          "body": "Laden Sie Ihre Teammitglieder ein und beginnen Sie nahtlos zusammenzuarbeiten."
+          "title": "Prüfen und veröffentlichen",
+          "body": "Prüfen Sie Ihre Seite, nehmen Sie Anpassungen vor und gehen Sie live, wenn Sie bereit sind."
         }
       ]
     },
     "useCases": {
-      "heading": "Anwendungsfälle",
-      "subtitle": "Perfekt für Teams jeder Größe",
+      "heading": "Perfekt für",
+      "subtitle": "Ideal für jede Wachstumsphase",
       "items": [
         {
-          "title": "Startups",
-          "body": "Starten Sie schnell mit unserem optimierten Onboarding-Prozess."
+          "title": "Produktlaunches",
+          "body": "Erhalten Sie schnell eine professionelle Landing Page für Ihren nächsten Launch."
         },
         {
-          "title": "Wachsende Teams",
-          "body": "Skalieren Sie mühelos, wenn Ihr Team mit flexiblen Plänen wächst."
+          "title": "Marketingkampagnen",
+          "body": "Erstellen Sie dedizierte Seiten für jede Kampagne ohne Wartezeit."
         },
         {
-          "title": "Unternehmen",
-          "body": "Funktionen und Sicherheit auf Unternehmensniveau für große Organisationen."
+          "title": "Agenturen",
+          "body": "Liefern Sie Kundenprojekte schneller mit konsistenten, hochwertigen Seiten."
         }
       ]
     },
     "integrations": {
-      "heading": "Integrationen",
-      "subtitle": "Funktioniert mit den Tools, die Sie bereits verwenden",
+      "heading": "Funktioniert mit Ihrem Stack",
+      "subtitle": "Einfache Übergabe an Ihre bestehenden Tools",
       "integrations": [
-        { "name": "Slack" },
-        { "name": "GitHub" },
-        { "name": "Jira" },
-        { "name": "Notion" },
-        { "name": "Figma" },
-        { "name": "Linear" }
+        { "name": "Vercel" },
+        { "name": "Netlify" },
+        { "name": "CMS" },
+        { "name": "Analytics" },
+        { "name": "Stripe" },
+        { "name": "E-Mail-Tools" }
       ]
     },
     "security": {
-      "heading": "Sicherheit & Compliance",
-      "subtitle": "Schutz auf Unternehmensniveau für Ihre Daten",
+      "heading": "Code-Qualität",
+      "subtitle": "Produktionsreifer Code, dem Sie vertrauen können",
       "items": [
         {
-          "title": "Sicherheit",
-          "body": "End-to-End-Verschlüsselung und erweiterte Sicherheitsprotokolle halten Ihre Daten sicher."
+          "title": "Saubere Codebasis",
+          "body": "Wohlstrukturierter, wartbarer Code, der Best Practices folgt."
         },
         {
-          "title": "Compliance",
-          "body": "Erfüllen Sie Branchenstandards mit SOC 2, GDPR und HIPAA-Compliance."
+          "title": "SEO-Optimiert",
+          "body": "Gebaut mit Fokus auf Performance und Sichtbarkeit in Suchmaschinen."
         },
         {
-          "title": "Zuverlässigkeit",
-          "body": "99,9% Uptime-SLA mit redundanter Infrastruktur und automatisierten Backups."
+          "title": "Vollständig Responsive",
+          "body": "Auf allen Geräten getestet für fehlerfreie Darstellung überall."
         }
       ]
     },
     "metrics": {
-      "heading": "Bewährte Ergebnisse",
-      "subtitle": "Sehen Sie die Auswirkungen selbst",
+      "heading": "Bewährte Performance",
+      "subtitle": "Ergebnisse, die für sich sprechen",
       "metrics": [
         {
           "value": "40%",
-          "label": "Produktivitätssteigerung",
-          "description": "Durchschnittliche Verbesserung der Team-Effizienz"
+          "label": "Höhere Conversion",
+          "description": "Durchschnittliche Steigerung der Conversion-Raten"
         },
         {
-          "value": "27%",
-          "label": "Schnellere Lieferung",
-          "description": "Reduzierte Time-to-Market für neue Funktionen"
+          "value": "3 Tage",
+          "label": "Durchschnittliche Build-Zeit",
+          "description": "Vom Briefing bis zur Live-Landing-Page"
         },
         {
           "value": "98%",
           "label": "Kundenzufriedenheit",
-          "description": "Teams lieben die Nutzung unserer Plattform"
+          "description": "Teams wählen uns für wiederholte Projekte"
         }
       ]
     },
@@ -138,37 +137,38 @@
       "subtitle": "Wählen Sie den Plan, der für Sie funktioniert",
       "plans": [
         {
-          "name": "Starter",
-          "price": "29€",
-          "description": "Perfekt für kleine Teams",
+          "name": "Einzelne Seite",
+          "price": "1.299€",
+          "description": "Eine Landing Page",
           "features": [
-            "Bis zu 5 Benutzer",
-            "Grundfunktionen",
-            "E-Mail-Support"
+            "1 Landing Page",
+            "Mobile responsive",
+            "Basis-Revisionen",
+            "Quellcode inklusive"
           ],
           "ctaLabel": "Loslegen"
         },
         {
-          "name": "Professional",
-          "price": "99€",
-          "description": "Für wachsende Unternehmen",
+          "name": "Paket",
+          "price": "2.999€",
+          "description": "Mehrere Seiten",
           "features": [
-            "Bis zu 25 Benutzer",
-            "Erweiterte Funktionen",
-            "Prioritäts-Support",
-            "Benutzerdefinierte Integrationen"
+            "3 Landing Pages",
+            "Individuelle Design-Optionen",
+            "Erweiterte Revisionen",
+            "Prioritäts-Support"
           ],
           "ctaLabel": "Loslegen"
         },
         {
           "name": "Enterprise",
           "price": "Individuell",
-          "description": "Für große Organisationen",
+          "description": "Für Agenturen und Teams",
           "features": [
-            "Unbegrenzte Benutzer",
-            "Alle Funktionen",
-            "24/7 Support",
-            "Individuelle Lösungen"
+            "Unbegrenzte Seiten",
+            "Dedizierter Account Manager",
+            "Individuelle Integrationen",
+            "Laufender Support"
           ],
           "ctaLabel": "Verkauf kontaktieren"
         }
@@ -179,46 +179,46 @@
       "subtitle": "Alles was Sie wissen müssen",
       "items": [
         {
-          "question": "Wie funktioniert es?",
-          "answer": "Unsere Plattform integriert sich nahtlos in Ihre bestehenden Tools und Workflows und macht es einfach, in wenigen Minuten loszulegen."
+          "question": "Wie lange dauert es?",
+          "answer": "Die meisten Landing Pages sind innerhalb von 3-5 Werktagen nach finaler Content-Freigabe fertig."
         },
         {
-          "question": "Kann ich jederzeit kündigen?",
-          "answer": "Ja, Sie können Ihr Abonnement jederzeit ohne Strafen oder Gebühren kündigen."
+          "question": "Kann ich nach der Übergabe Änderungen vornehmen?",
+          "answer": "Ja, jeder Plan enthält Revisionsrunden. Sie erhalten den Quellcode, um Updates selbst vorzunehmen."
         },
         {
-          "question": "Bieten Sie Support an?",
-          "answer": "Ja, wir bieten 24/7 Support für alle Pläne, mit Prioritäts-Support auf höheren Ebenen."
+          "question": "Was muss ich bereitstellen?",
+          "answer": "Content, Branding-Assets und Ihre Ziele. Wir übernehmen Design, Entwicklung und Optimierung."
         }
       ]
     },
     "testimonials": {
       "heading": "Was unsere Kunden sagen",
-      "subtitle": "Vertraut von Teams weltweit",
+      "subtitle": "Vertraut von Gründern und Agenturen",
       "testimonials": [
         {
-          "quote": "Diese Plattform hat die Art und Weise verändert, wie unser Team zusammenarbeitet. Wir haben seit dem Wechsel eine Produktivitätssteigerung von 40% verzeichnet.",
+          "quote": "Wir brauchten schnell eine Landing Page für unseren Produktlaunch. Sie haben genau das geliefert, was wir brauchten, in drei Tagen.",
           "name": "Sarah Johnson",
-          "role": "Leiterin Produkt, TechCorp",
-          "metric": "+40% Produktivität"
+          "role": "Gründerin, TechCorp",
+          "metric": "40% Conversion-Rate"
         },
         {
-          "quote": "Die beste Investition, die wir dieses Jahr getätigt haben. Der ROI war bereits im ersten Monat nach der Implementierung sichtbar.",
+          "quote": "Die Qualität ist außergewöhnlich und die Geschwindigkeit ist unübertroffen. Die beste Investition dieses Quartal.",
           "name": "Michael Chen",
-          "role": "CTO, StartupXYZ",
-          "metric": "+27% Konversion"
+          "role": "Marketing-Direktor, StartupXYZ",
+          "metric": "3x schnellerer Launch"
         },
         {
-          "quote": "Hervorragender Support und ein Produkt, das einfach funktioniert. Unser Team könnte nicht glücklicher mit den Ergebnissen sein.",
+          "quote": "Als Agentur nutzen wir sie für alle Kunden-Landing-Pages. Konsistente Qualität jedes Mal.",
           "name": "Emma Williams",
-          "role": "Operations-Direktorin, GrowthCo",
-          "metric": "98% Zufriedenheit"
+          "role": "Creative Director, GrowthCo",
+          "metric": "98% Kundenzufriedenheit"
         }
       ]
     },
     "finalCta": {
       "heading": "Bereit loszulegen?",
-      "subtitle": "Schließen Sie sich Tausenden von Teams an, die bereits unsere Plattform nutzen",
+      "subtitle": "Schließen Sie sich Hunderten von Teams mit hochkonvertierenden Landing Pages an",
       "ctaLabel": "Heute loslegen"
     }
   }

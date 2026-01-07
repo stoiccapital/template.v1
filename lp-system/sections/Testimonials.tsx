@@ -34,6 +34,7 @@ export function Testimonials({ copy, theme }: TestimonialsProps) {
       role={testimonial.role}
       metric={testimonial.metric}
       theme={theme}
+      className="h-full"
     />
   ));
   
@@ -48,7 +49,7 @@ export function Testimonials({ copy, theme }: TestimonialsProps) {
             {copy.subtitle}
           </p>
         )}
-        <div className={`grid grid-cols-1 md:grid-cols-3 ${spacing.grid.x.md} ${spacing.grid.y.md}`}>
+        <div className={`grid grid-cols-1 md:grid-cols-3 ${spacing.grid.x.md} ${spacing.grid.y.md} items-stretch`}>
           {testimonialCards}
         </div>
       </CenteredLayout>

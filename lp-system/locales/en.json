@@ -1,9 +1,9 @@
 {
   "example-lp": {
     "hero": {
-      "eyebrow": "New Platform",
-      "title": "Build better products faster",
-      "subtitle": "The complete solution for modern teams to ship faster and scale better.",
+      "eyebrow": "Landing Pages",
+      "title": "High-quality landing pages, built fast",
+      "subtitle": "Professional landing pages designed for conversion and built for speed.",
       "primaryCtaLabel": "Get Started",
       "secondaryCtaLabel": "Learn More"
     },
@@ -11,124 +11,124 @@
     },
     "valueProps": {
       "heading": "Everything you need",
-      "subtitle": "Powerful features to help you build and scale",
+      "subtitle": "Professional landing pages that convert",
       "items": [
         {
-          "title": "Fast & Reliable",
-          "body": "Built for performance with modern architecture and best practices."
+          "title": "Fast Delivery",
+          "body": "Get your landing page live in days, not weeks."
         },
         {
-          "title": "Easy Integration",
-          "body": "Connect with your existing tools and workflows seamlessly."
+          "title": "Conversion-Focused",
+          "body": "Built with proven patterns that drive results."
         },
         {
-          "title": "24/7 Support",
-          "body": "Get help when you need it with our dedicated support team."
+          "title": "Fully Responsive",
+          "body": "Perfect on every device, every screen size."
         }
       ]
     },
     "features": {
-      "heading": "Powerful features",
-      "subtitle": "Everything you need to succeed",
+      "heading": "Built for results",
+      "subtitle": "Everything that makes landing pages perform",
       "items": [
         {
-          "title": "Advanced Analytics",
-          "body": "Track your metrics and make data-driven decisions with comprehensive analytics."
+          "title": "Conversion-Optimized Structure",
+          "body": "Every section designed to guide visitors toward your goal."
         },
         {
-          "title": "Team Collaboration",
-          "body": "Work together seamlessly with built-in collaboration tools and workflows."
+          "title": "Fast Load Times",
+          "body": "Optimized code and assets for instant page loads."
         },
         {
-          "title": "Secure & Compliant",
-          "body": "Enterprise-grade security and compliance to keep your data safe."
+          "title": "Clean, Modern Design",
+          "body": "Professional aesthetics that build trust and engagement."
         }
       ]
     },
     "deepDive": {
       "heading": "How it works",
-      "subtitle": "Get started in minutes with our simple process",
+      "subtitle": "Get your landing page in three simple steps",
       "steps": [
         {
-          "title": "Sign up and connect",
-          "body": "Create your account and connect your existing tools in just a few clicks."
+          "title": "Share your requirements",
+          "body": "Tell us what you need and we'll match you with the right structure."
         },
         {
-          "title": "Configure your workspace",
-          "body": "Customize your settings and preferences to match your team's workflow."
+          "title": "We build your page",
+          "body": "Our team builds your landing page with your content and branding."
         },
         {
-          "title": "Start collaborating",
-          "body": "Invite your team members and begin working together seamlessly."
+          "title": "Review and launch",
+          "body": "Review your page, make adjustments, and go live when ready."
         }
       ]
     },
     "useCases": {
-      "heading": "Use cases",
-      "subtitle": "Perfect for teams of all sizes",
+      "heading": "Perfect for",
+      "subtitle": "Ideal for every stage of growth",
       "items": [
         {
-          "title": "Startups",
-          "body": "Get up and running quickly with our streamlined onboarding process."
+          "title": "Product Launches",
+          "body": "Get a professional landing page fast for your next launch."
         },
         {
-          "title": "Growing Teams",
-          "body": "Scale effortlessly as your team expands with flexible plans."
+          "title": "Marketing Campaigns",
+          "body": "Create dedicated pages for each campaign without the wait."
         },
         {
-          "title": "Enterprise",
-          "body": "Enterprise-grade features and security for large organizations."
+          "title": "Agencies",
+          "body": "Deliver client work faster with consistent, high-quality pages."
         }
       ]
     },
     "integrations": {
-      "heading": "Integrations",
-      "subtitle": "Works with the tools you already use",
+      "heading": "Works with your stack",
+      "subtitle": "Easy handoff to your existing tools",
       "integrations": [
-        { "name": "Slack" },
-        { "name": "GitHub" },
-        { "name": "Jira" },
-        { "name": "Notion" },
-        { "name": "Figma" },
-        { "name": "Linear" }
+        { "name": "Vercel" },
+        { "name": "Netlify" },
+        { "name": "CMS" },
+        { "name": "Analytics" },
+        { "name": "Stripe" },
+        { "name": "Email Tools" }
       ]
     },
     "security": {
-      "heading": "Security & Compliance",
-      "subtitle": "Enterprise-grade protection for your data",
+      "heading": "Code quality",
+      "subtitle": "Production-ready code you can trust",
       "items": [
         {
-          "title": "Security",
-          "body": "End-to-end encryption and advanced security protocols keep your data safe."
+          "title": "Clean Codebase",
+          "body": "Well-structured, maintainable code that follows best practices."
         },
         {
-          "title": "Compliance",
-          "body": "Meet industry standards with SOC 2, GDPR, and HIPAA compliance."
+          "title": "SEO Optimized",
+          "body": "Built with performance and search visibility in mind."
         },
         {
-          "title": "Reliability",
-          "body": "99.9% uptime SLA with redundant infrastructure and automated backups."
+          "title": "Fully Responsive",
+          "body": "Tested across devices to ensure flawless display everywhere."
         }
       ]
     },
     "metrics": {
-      "heading": "Proven results",
-      "subtitle": "See the impact for yourself",
+      "heading": "Proven performance",
+      "subtitle": "Results that speak for themselves",
       "metrics": [
         {
           "value": "40%",
-          "label": "Productivity Increase",
-          "description": "Average improvement in team efficiency"
+          "label": "Higher Conversion",
+          "description": "Average increase in conversion rates"
         },
         {
-          "value": "27%",
-          "label": "Faster Delivery",
-          "description": "Reduced time to market for new features"
+          "value": "3 Days",
+          "label": "Average Build Time",
+          "description": "From brief to live landing page"
         },
         {
           "value": "98%",
-          "label": "Customer Satisfaction",
-          "description": "Teams love using our platform"
+          "label": "Client Satisfaction",
+          "description": "Teams choose us for repeat projects"
         }
       ]
     },
@@ -137,37 +137,38 @@
       "subtitle": "Choose the plan that works for you",
       "plans": [
         {
-          "name": "Starter",
-          "price": "$29",
-          "description": "Perfect for small teams",
+          "name": "Single Page",
+          "price": "$1,299",
+          "description": "One landing page",
           "features": [
-            "Up to 5 users",
-            "Basic features",
-            "Email support"
+            "1 landing page",
+            "Mobile responsive",
+            "Basic revisions",
+            "Source code included"
           ],
           "ctaLabel": "Get Started"
         },
         {
-          "name": "Professional",
-          "price": "$99",
-          "description": "For growing businesses",
+          "name": "Package",
+          "price": "$2,999",
+          "description": "Multiple pages",
           "features": [
-            "Up to 25 users",
-            "Advanced features",
-            "Priority support",
-            "Custom integrations"
+            "3 landing pages",
+            "Custom design options",
+            "Extended revisions",
+            "Priority support"
           ],
           "ctaLabel": "Get Started"
         },
         {
           "name": "Enterprise",
           "price": "Custom",
-          "description": "For large organizations",
+          "description": "For agencies and teams",
           "features": [
-            "Unlimited users",
-            "All features",
-            "24/7 support",
-            "Custom solutions"
+            "Unlimited pages",
+            "Dedicated account manager",
+            "Custom integrations",
+            "Ongoing support"
           ],
           "ctaLabel": "Contact Sales"
         }
@@ -178,46 +179,46 @@
       "subtitle": "Everything you need to know",
       "items": [
         {
-          "question": "How does it work?",
-          "answer": "Our platform integrates seamlessly with your existing tools and workflows, making it easy to get started in minutes."
+          "question": "How long does it take?",
+          "answer": "Most landing pages are completed within 3-5 business days from final content approval."
         },
         {
-          "question": "Can I cancel anytime?",
-          "answer": "Yes, you can cancel your subscription at any time with no penalties or fees."
+          "question": "Can I make changes after delivery?",
+          "answer": "Yes, each plan includes revision rounds. You receive the source code to make updates yourself."
         },
         {
-          "question": "Do you offer support?",
-          "answer": "Yes, we offer 24/7 support for all plans, with priority support available on higher tiers."
+          "question": "What do I need to provide?",
+          "answer": "Content, branding assets, and your goals. We handle design, development, and optimization."
         }
       ]
     },
     "testimonials": {
       "heading": "What our customers say",
-      "subtitle": "Trusted by teams worldwide",
+      "subtitle": "Trusted by founders and agencies",
       "testimonials": [
         {
-          "quote": "This platform has transformed how our team collaborates. We've seen a 40% increase in productivity since switching.",
+          "quote": "We needed a landing page fast for our product launch. They delivered exactly what we needed in three days.",
           "name": "Sarah Johnson",
-          "role": "Head of Product, TechCorp",
-          "metric": "+40% productivity"
+          "role": "Founder, TechCorp",
+          "metric": "40% conversion rate"
         },
         {
-          "quote": "The best investment we've made this year. The ROI was visible within the first month of implementation.",
+          "quote": "The quality is exceptional and the speed is unmatched. Best investment we made this quarter.",
           "name": "Michael Chen",
-          "role": "CTO, StartupXYZ",
-          "metric": "+27% conversion"
+          "role": "Marketing Director, StartupXYZ",
+          "metric": "3x faster launch"
         },
         {
-          "quote": "Outstanding support and a product that just works. Our team couldn't be happier with the results.",
+          "quote": "As an agency, we use them for all our client landing pages. Consistent quality every time.",
           "name": "Emma Williams",
-          "role": "Operations Director, GrowthCo",
-          "metric": "98% satisfaction"
+          "role": "Creative Director, GrowthCo",
+          "metric": "98% client satisfaction"
         }
       ]
     },
     "finalCta": {
       "heading": "Ready to get started?",
-      "subtitle": "Join thousands of teams already using our platform",
+      "subtitle": "Join hundreds of teams with high-converting landing pages",
       "ctaLabel": "Get Started Today"
     }
   }

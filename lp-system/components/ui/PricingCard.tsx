@@ -61,7 +61,7 @@ export function PricingCard({
         {body}
       </p>
       
-      <ul className={`flex flex-col ${spacing.block.y.md} flex-grow text-text-secondary`}>
+      <ul className={`flex flex-col ${spacing.block.y.md} grow text-text-secondary`}>
         {features.map((feature, index) => (
           <li key={index} className={`flex items-start ${index > 0 ? spacing.element.y.xs : ''}`}>
             <span className="mr-2">✓</span>
@@ -70,8 +70,8 @@ export function PricingCard({
         ))}
       </ul>
       
-      <div className="grow flex flex-col justify-end">
-        <CTAButton variant="primary" theme={theme} label={ctaLabel} className="w-full" />
+      <div className="mt-auto">
+        <CTAButton variant="primary" theme={theme} label={ctaLabel} />
       </div>
     </div>
   );

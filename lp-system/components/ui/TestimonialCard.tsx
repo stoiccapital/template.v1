@@ -32,6 +32,9 @@ export function TestimonialCard({
   return (
     <div
       className={`
+        flex
+        flex-col
+        h-full
         ${bgColor}
         ${borderColor}
         border
@@ -45,27 +48,29 @@ export function TestimonialCard({
       `}
     >
       <p className={`${typography.body} text-text-secondary italic ${spacing.block.y.md}`}>
-        "{quote}"
+        &ldquo;{quote}&rdquo;
       </p>
       
-      <div className={`${typography.h3} text-text-primary ${spacing.block.y.sm}`}>
-        {name}
-      </div>
-      
-      <div className={`${typography.label} text-text-muted ${spacing.block.y.sm}`}>
-        {role}
-      </div>
-      
-      {metric && (
-        <div className={`
-          ${typography.textXs}
-          ${isDark ? colors.dark.accent.primary : themeColors.accent.primary}
-          font-medium
-          ${spacing.block.y.sm}
-        `}>
-          {metric}
+      <div className={`mt-auto ${spacing.block.y.md}`}>
+        <div className={`${typography.h3} text-text-primary ${spacing.block.y.sm}`}>
+          {name}
         </div>
-      )}
+        
+        <div className={`${typography.label} text-text-muted ${spacing.block.y.sm}`}>
+          {role}
+        </div>
+        
+        {metric && (
+          <div className={`
+            ${typography.textXs}
+            ${isDark ? colors.dark.accent.primary : themeColors.accent.primary}
+            font-medium
+            ${spacing.block.y.sm}
+          `}>
+            {metric}
+          </div>
+        )}
+      </div>
     </div>
   );
 }

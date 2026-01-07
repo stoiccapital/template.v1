@@ -62,11 +62,7 @@ export function MediaContainer({
             alt={alt} 
             className="w-full h-full object-cover object-center"
           />
-        ) : children || (
-          <div className={`h-full w-full flex items-center justify-center ${textColor} text-sm relative z-10`}>
-            Media Placeholder
-          </div>
-        )}
+        ) : children || null}
       </div>
     </div>
   );

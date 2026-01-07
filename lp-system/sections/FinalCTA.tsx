@@ -20,7 +20,7 @@ export type FinalCTAProps = {
 export function FinalCTA({ copy, theme }: FinalCTAProps) {
   return (
     <section id="final-cta" data-section-id="final-cta" className={`${spacing.section.top['2xl']} ${spacing.section.bottom.xl} ${globalBackground.neutral.darkest}`}>
-      <CenteredLayout align="center">
+      <CenteredLayout>
         <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
           {copy.heading}
         </h2>
@@ -29,7 +29,7 @@ export function FinalCTA({ copy, theme }: FinalCTAProps) {
             {copy.subtitle}
           </p>
         )}
-        <CTAGroup align="center" stack="horizontal">
+        <CTAGroup align="left" stack="horizontal">
           <CTAButton variant="primary" theme={theme} label={copy.ctaLabel} />
         </CTAGroup>
       </CenteredLayout>
