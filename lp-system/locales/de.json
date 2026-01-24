@@ -1,296 +1,448 @@
 {
-  "example-lp": {
+  "agency-lp": {
     "hero": {
-      "eyebrow": "Fuhrpark-Operations-Plattform",
-      "title": "Eine Plattform für Einsatzsteuerung, Personal, Fuhrpark und Compliance",
-      "subtitle": "Fahrly bündelt Tagesgeschäft, Personalsteuerung, Fuhrpark-Übersicht und Compliance in einem System. Starten Sie mit Kernprozessen und erweitern Sie schrittweise.",
-      "primaryCtaLabel": "Fahrly testen",
-      "secondaryCtaLabel": "Preise ansehen"
+      "eyebrow": "Landing Pages",
+      "title": "High-quality landing pages, built fast",
+      "subtitle": "Professional landing pages designed for conversion and built for speed.",
+      "primaryCtaLabel": "Get Started",
+      "secondaryCtaLabel": "Learn More"
     },
     "socialProof": {
-      "label": "Bereits über 500 Mietwagenflotten vertrauen Fahrly"
     },
     "valueProps": {
-      "eyebrow": "Modulare Lösungen",
-      "heading": "Eine integrierte Plattform für Fuhrpark- und Einsatzbetrieb",
-      "subtitle": "Reduzieren Sie manuellen Aufwand, vermeiden Sie Fehler und steuern Sie Ihren Fuhrpark effizienter auf einer integrierten Plattform. Fahrly bündelt Einsatzsteuerung, Team- und Schichtplanung, Fuhrparkübersicht und Compliance in einem System – von der täglichen Disposition bis zu Wartungserinnerungen und Nachweisen.",
-      "items": []
-    },
-    "features": {
-      "eyebrow": "",
-      "heading": "",
-      "subtitle": "",
+      "heading": "Everything you need",
+      "subtitle": "Professional landing pages that convert",
       "items": [
         {
-          "eyebrow": "Fahrly Go",
-          "title": "Fahrten zentral vergeben",
-          "body": "Planen und verteilen Sie alle Fahrten in einem Dashboard – klar, nachvollziehbar und in Echtzeit. Weniger Abstimmung, weniger Fehler, mehr Ruhe in der Zentrale."
+          "title": "Fast Delivery",
+          "body": "Get your landing page live in days, not weeks."
         },
         {
-          "eyebrow": "Human Resource",
-          "title": "Arbeitsverwaltung effizient gestalten",
-          "body": "Sparen Sie Zeit bei Zeiterfassung, digitalen Dokumenten, Verträgen und Gehaltsberechnungen – alles in einem System mit klarer Struktur und weniger manueller Arbeit."
+          "title": "Conversion-Focused",
+          "body": "Built with proven patterns that drive results."
         },
         {
-          "eyebrow": "Fleet Management",
-          "title": "Fahrzeugkosten transparent steuern",
-          "body": "Behalten Sie Wartung, Reparaturen und laufende Fahrzeugkosten im Blick – mit klarer Übersicht und planbaren Instandhaltungen in einem System."
+          "title": "Fully Responsive",
+          "body": "Perfect on every device, every screen size."
+        }
+      ]
+    },
+    "features": {
+      "heading": "Built for results",
+      "subtitle": "Everything that makes landing pages perform",
+      "items": [
+        {
+          "title": "Conversion-Optimized Structure",
+          "body": "Every section designed to guide visitors toward your goal."
         },
         {
-          "eyebrow": "Compliance",
-          "title": "Compliance-Risiken frühzeitig erkennen",
-          "body": "Behalten Sie Rückkehrpflicht, Führerscheinkontrollen und weitere Vorgaben im Blick. Erkennen Sie Verstöße frühzeitig und reduzieren Sie das Risiko von Lizenzverlusten."
+          "title": "Fast Load Times",
+          "body": "Optimized code and assets for instant page loads."
+        },
+        {
+          "title": "Clean, Modern Design",
+          "body": "Professional aesthetics that build trust and engagement."
         }
       ]
     },
     "deepDive": {
-      "eyebrow": "Einführung",
-      "heading": "So funktioniert Fahrly im Betrieb",
-      "subtitle": "Strukturiert starten und schrittweise erweitern – ohne operative Brüche",
+      "heading": "How it works",
+      "subtitle": "Get your landing page in three simple steps",
       "steps": [
         {
-          "title": "Kernprozesse abbilden",
-          "body": "Einsatzsteuerung und Kommunikation werden zuerst eingerichtet. Bestehende Abläufe bleiben stabil, während Transparenz und Struktur zunehmen."
+          "title": "Share your requirements",
+          "body": "Tell us what you need and we'll match you with the right structure."
         },
         {
-          "title": "Betrieb und Personal verbinden",
-          "body": "Arbeitszeiten, Schichten und Rollen werden integriert. Operative Planung und Personalsteuerung greifen ineinander."
+          "title": "We build your page",
+          "body": "Our team builds your landing page with your content and branding."
         },
         {
-          "title": "Fuhrpark und Compliance absichern",
-          "body": "Fahrzeugzustände, Wartungen und Compliance-Vorgaben werden zentral sichtbar. Risiken und Abweichungen sind früh erkennbar."
+          "title": "Review and launch",
+          "body": "Review your page, make adjustments, and go live when ready."
         }
       ]
     },
     "useCases": {
-      "heading": "Unterstützung für den operativen Fuhrparkbetrieb",
-      "subtitle": "Ob Disposition, Personalsteuerung oder Compliance – Fahrly bildet die zentralen Abläufe moderner Fuhrpark- und Plattformbetriebe in einem System ab.",
+      "heading": "Perfect for",
+      "subtitle": "Ideal for every stage of growth",
       "items": [
         {
-          "title": "Fahrten zentral vergeben",
-          "body": "Alle Fahrten werden in einem Dashboard geplant und verteilt. Dispositionsteams behalten jederzeit den Überblick, reagieren in Echtzeit auf Änderungen und reduzieren Abstimmungsaufwand sowie operative Fehler."
+          "title": "Product Launches",
+          "body": "Get a professional landing page fast for your next launch."
         },
         {
-          "title": "Personalsteuerung und Arbeitsverwaltung",
-          "body": "Arbeitszeiten, Dokumente, Verträge und abrechnungsrelevante Daten werden zentral verwaltet. Personalverantwortliche sparen Zeit, vermeiden Medienbrüche und arbeiten mit einer konsistenten Datenbasis."
+          "title": "Marketing Campaigns",
+          "body": "Create dedicated pages for each campaign without the wait."
         },
         {
-          "title": "Flottenbetrieb und Kostenkontrolle",
-          "body": "Wartungen, Reparaturen und laufende Fahrzeugkosten werden systematisch erfasst. Fuhrparkverantwortliche planen Instandhaltungen vorausschauend und behalten Kosten dauerhaft unter Kontrolle."
-        },
-        {
-          "title": "Compliance-Risiken frühzeitig erkennen",
-          "body": "Rückkehrpflichten, Führerscheinkontrollen und weitere Vorgaben werden kontinuierlich überwacht. Verstöße werden früh erkannt, Risiken reduziert und der laufende Betrieb abgesichert."
+          "title": "Agencies",
+          "body": "Deliver client work faster with consistent, high-quality pages."
         }
       ]
     },
     "integrations": {
-      "eyebrow": "Integration",
-      "heading": "Verbindet sich mit den Systemen, die Sie bereits nutzen",
-      "subtitle": "Uber — Fahrten, Fahrer und Einnahmen werden automatisch synchronisiert",
+      "heading": "Works with your stack",
+      "subtitle": "Easy handoff to your existing tools",
       "integrations": [
-        { "name": "Telematik" }
+        { "name": "Vercel" },
+        { "name": "Netlify" },
+        { "name": "CMS" },
+        { "name": "Analytics" },
+        { "name": "Stripe" },
+        { "name": "Email Tools" }
       ]
     },
     "security": {
-      "heading": "Zuverlässiger Betrieb",
-      "subtitle": "Stabile, prüfbare Abläufe",
+      "heading": "Code quality",
+      "subtitle": "Production-ready code you can trust",
       "items": [
         {
-          "title": "Rollenbasierte Zugriffe",
-          "body": "Steuern, wer zentrale Daten sehen und ändern darf."
+          "title": "Clean Codebase",
+          "body": "Well-structured, maintainable code that follows best practices."
         },
         {
-          "title": "Nachvollziehbare Protokolle",
-          "body": "Klare Historie für Betrieb und Compliance."
+          "title": "SEO Optimized",
+          "body": "Built with performance and search visibility in mind."
         },
         {
-          "title": "Datenexport und Aufbewahrung",
-          "body": "Aufbewahrung nach Ihren Anforderungen."
+          "title": "Fully Responsive",
+          "body": "Tested across devices to ensure flawless display everywhere."
         }
       ]
     },
     "metrics": {
-      "heading": "Plattform im laufenden Betrieb",
-      "subtitle": "Fahrly verbindet Disposition, Fahrer und Fahrzeuge in einem System. Live-Daten aus angebundenen Plattformen ermöglichen einen durchgängigen operativen Betrieb.",
+      "heading": "Proven performance",
+      "subtitle": "Results that speak for themselves",
       "metrics": [
         {
-          "value": "10.000+ aktive Fahrer",
-          "label": "im System erfasst und verwaltet",
-          "description": ""
+          "value": "40%",
+          "label": "Higher Conversion",
+          "description": "Average increase in conversion rates"
         },
         {
-          "value": "5.000+ Fahrzeuge",
-          "label": "zentral organisiert und zugeordnet",
-          "description": ""
+          "value": "3 Days",
+          "label": "Average Build Time",
+          "description": "From brief to live landing page"
         },
         {
-          "value": "500+ Unternehmen",
-          "label": "nutzen die Plattform im Tagesgeschäft",
-          "description": ""
+          "value": "98%",
+          "label": "Client Satisfaction",
+          "description": "Teams choose us for repeat projects"
         }
       ]
     },
     "pricing": {
-      "heading": "Preise",
-      "subtitle": "Einzelbetrieb oder Team – monatlich oder jährlich",
-      "singleUserLabel": "1 Nutzer",
-      "singleUserTitle": "1 Nutzer – Übersicht",
-      "billingToggle": {
-        "label": "Abrechnungszeitraum",
-        "monthly": "Monatlich",
-        "yearly": "Jährlich",
-        "yearlyBadge": "20 % sparen"
-      },
-      "singleUserLabels": {
-        "monthly": "monatlich",
-        "yearly": "jährlich"
-      },
+      "heading": "Simple pricing",
+      "subtitle": "Choose the plan that works for you",
       "plans": [
         {
-          "id": "core",
-          "title": "Core",
-          "billing": {
-            "monthly": {
-              "price": "50 € / Monat",
-              "detail": "Team · monatliche Zahlung"
-            },
-            "yearly": {
-              "price": "40 € / Monat",
-              "subPrice": "(480 € / Jahr)",
-              "detail": "Team · jährliche Zahlung"
-            }
-          },
-          "body": "Tägliche Abläufe und Dispatch",
+          "name": "Single Page",
+          "price": "$1,299",
+          "description": "One landing page",
           "features": [
-            "Dispatch & Routing",
-            "Teamkommunikation",
-            "Basis-Reporting",
-            "E-Mail-Support"
+            "1 landing page",
+            "Mobile responsive",
+            "Basic revisions",
+            "Source code included"
           ],
-          "singleUser": {
-            "monthly": "30 € / Monat",
-            "yearly": "288 € / Jahr"
-          },
-          "ctaLabel": "Core starten"
+          "ctaLabel": "Get Started"
         },
         {
-          "id": "operations",
-          "title": "Operations",
-          "billing": {
-            "monthly": {
-              "price": "100 € / Monat",
-              "detail": "Team · monatliche Zahlung"
-            },
-            "yearly": {
-              "price": "80 € / Monat",
-              "subPrice": "(960 € / Jahr)",
-              "detail": "Team · jährliche Zahlung"
-            }
-          },
-          "body": "Betrieb & Personalmanagement",
+          "name": "Package",
+          "price": "$2,999",
+          "description": "Multiple pages",
           "features": [
-            "Alles aus Core",
-            "Schichtplanung & Verfügbarkeit",
-            "Zeit- & Rollenverwaltung",
-            "Operatives Reporting"
+            "3 landing pages",
+            "Custom design options",
+            "Extended revisions",
+            "Priority support"
           ],
-          "singleUser": {
-            "monthly": "60 € / Monat",
-            "yearly": "576 € / Jahr"
-          },
-          "ctaLabel": "Operations starten",
-          "isPopular": true
+          "ctaLabel": "Get Started"
         },
         {
-          "id": "full",
-          "title": "Full Platform",
-          "billing": {
-            "monthly": {
-              "price": "200 € / Monat",
-              "detail": "Team · monatliche Zahlung"
-            },
-            "yearly": {
-              "price": "160 € / Monat",
-              "subPrice": "(1.920 € / Jahr)",
-              "detail": "Team · jährliche Zahlung"
-            }
-          },
-          "body": "Vollständiger Betrieb & Compliance",
+          "name": "Enterprise",
+          "price": "Custom",
+          "description": "For agencies and teams",
           "features": [
-            "Alles aus Operations",
-            "Fuhrpark-Übersicht",
-            "Compliance-Workflows",
-            "Begleitete Einführung"
+            "Unlimited pages",
+            "Dedicated account manager",
+            "Custom integrations",
+            "Ongoing support"
           ],
-          "singleUser": {
-            "monthly": "120 € / Monat",
-            "yearly": "1.152 € / Jahr"
-          },
-          "ctaLabel": "Mit Vertrieb sprechen"
+          "ctaLabel": "Contact Sales"
+        }
+      ]
+    },
+    "faq": {
+      "heading": "Frequently asked questions",
+      "subtitle": "Everything you need to know",
+      "items": [
+        {
+          "question": "How long does it take?",
+          "answer": "Most landing pages are completed within 3-5 business days from final content approval."
+        },
+        {
+          "question": "Can I make changes after delivery?",
+          "answer": "Yes, each plan includes revision rounds. You receive the source code to make updates yourself."
+        },
+        {
+          "question": "What do I need to provide?",
+          "answer": "Content, branding assets, and your goals. We handle design, development, and optimization."
+        }
+      ]
+    },
+    "testimonials": {
+      "heading": "What our customers say",
+      "subtitle": "Trusted by founders and agencies",
+      "testimonials": [
+        {
+          "quote": "We needed a landing page fast for our product launch. They delivered exactly what we needed in three days.",
+          "name": "Sarah Johnson",
+          "role": "Founder, TechCorp",
+          "metric": "40% conversion rate"
+        },
+        {
+          "quote": "The quality is exceptional and the speed is unmatched. Best investment we made this quarter.",
+          "name": "Michael Chen",
+          "role": "Marketing Director, StartupXYZ",
+          "metric": "3x faster launch"
+        },
+        {
+          "quote": "As an agency, we use them for all our client landing pages. Consistent quality every time.",
+          "name": "Emma Williams",
+          "role": "Creative Director, GrowthCo",
+          "metric": "98% client satisfaction"
+        }
+      ]
+    },
+    "finalCta": {
+      "heading": "Ready to get started?",
+      "subtitle": "Join hundreds of teams with high-converting landing pages",
+      "ctaLabel": "Get Started Today"
+    }
+  },
+  "example-lp": {
+    "hero": {
+      "eyebrow": "Produktisierte Landing Pages",
+      "title": "Enterprise-Qualität Landing Pages, geliefert in einer Woche",
+      "subtitle": "Produkt-Qualität Landing Pages und Mehrseiten-Websites für Agenturen. Scope vorab definiert, vorhersagbare Lieferung.",
+      "primaryCtaLabel": "Loslegen",
+      "secondaryCtaLabel": "Mehr erfahren"
+    },
+    "socialProof": {
+    },
+    "valueProps": {
+      "heading": "Alles was Sie brauchen",
+      "subtitle": "Professionelle Landing Pages, die konvertieren",
+      "items": [
+        {
+          "title": "Eine Woche Lieferzeit",
+          "body": "Von den Anforderungen bis zur deployeden Website in einer Woche."
+        },
+        {
+          "title": "Konsistentes System",
+          "body": "Enterprise-Qualität Struktur und Muster jedes Mal."
+        },
+        {
+          "title": "Performance-Ready",
+          "body": "Optimierter Code, responsive Design, SEO-fähige Struktur."
+        }
+      ]
+    },
+    "features": {
+      "heading": "Gebaut für Ergebnisse",
+      "subtitle": "Alles, was Landing Pages zum Erfolg führt",
+      "items": [
+        {
+          "title": "Zweisprachiger Copy Inklusive",
+          "body": "Deutscher und englischer Copy standardmäßig enthalten."
+        },
+        {
+          "title": "Performance-Optimierung",
+          "body": "Schnelle Ladezeiten und optimierte Assets von Anfang an."
+        },
+        {
+          "title": "Deployment-Ready",
+          "body": "Deployed und einsatzbereit, Quellcode inklusive."
+        }
+      ]
+    },
+    "deepDive": {
+      "heading": "Wie es funktioniert",
+      "subtitle": "Eine Woche vom Start bis zum Launch",
+      "steps": [
+        {
+          "title": "Scope vorab definieren",
+          "body": "Teilen Sie Anforderungen, Ziele und Brand-Assets mit. Scope wird vor Beginn der Arbeit definiert."
+        },
+        {
+          "title": "Wir bauen in einer Woche",
+          "body": "Ihre Landing Page oder Website wird mit Copy, responsive Design, Dark/Light Mode und Performance-Optimierung gebaut."
+        },
+        {
+          "title": "Eine Revision inklusive, dann Launch",
+          "body": "Prüfen, mit Ihrer inkludierten Revision Anpassungen vornehmen und deployen. Quellcode wird geliefert."
+        }
+      ]
+    },
+    "useCases": {
+      "heading": "Perfekt für",
+      "subtitle": "Gebaut für Agenturen und Teams",
+      "items": [
+        {
+          "title": "Agenturen",
+          "body": "Liefern Sie Kunden-Websites und Landing Pages mit vorhersagbaren Zeiten und konsistenter Qualität."
+        },
+        {
+          "title": "Produktlaunches",
+          "body": "Erhalten Sie eine professionelle Landing Page, geliefert in einer Woche für Ihren Launch."
+        },
+        {
+          "title": "Marketingkampagnen",
+          "body": "Erstellen Sie dedizierte Seiten für Kampagnen mit schnellem Turnaround."
+        }
+      ]
+    },
+    "integrations": {
+      "heading": "Funktioniert mit Ihrem Stack",
+      "subtitle": "Einfache Übergabe an Ihre bestehenden Tools",
+      "integrations": [
+        { "name": "Vercel" },
+        { "name": "Netlify" },
+        { "name": "CMS" },
+        { "name": "Analytics" },
+        { "name": "Zahlungen" },
+        { "name": "E-Mail-Tools" }
+      ]
+    },
+    "security": {
+      "heading": "Code-Qualität",
+      "subtitle": "Produktionsreifer Code, dem Sie vertrauen können",
+      "items": [
+        {
+          "title": "Enterprise-Qualität Code",
+          "body": "Wohlstrukturierter, wartbarer Code nach Best Practices."
+        },
+        {
+          "title": "SEO-fähige Struktur",
+          "body": "Gebaut mit Fokus auf Sichtbarkeit und Performance-Optimierung."
+        },
+        {
+          "title": "Responsive + Dark/Light Mode",
+          "body": "Auf allen Geräten getestet mit Theme-Support inklusive."
+        }
+      ]
+    },
+    "metrics": {
+      "heading": "Bewährte Performance",
+      "subtitle": "Ergebnisse, die für sich sprechen",
+      "metrics": [
+        {
+          "value": "7 Tage",
+          "label": "Durchschnittliche Lieferzeit",
+          "description": "Vom Kickoff bis zum Deployment"
+        },
+        {
+          "value": "100 %",
+          "label": "Definierter Scope",
+          "description": "Keine Überraschungen im Projektverlauf"
+        },
+        {
+          "value": "0 Tage",
+          "label": "Deployment-Standard",
+          "description": "Kein zusätzlicher Vorbereitungsaufwand"
+        }
+      ]
+    },
+    "pricing": {
+      "heading": "Einfache Preisgestaltung",
+      "subtitle": "Wählen Sie den Plan, der für Sie funktioniert",
+      "plans": [
+        {
+          "name": "Einzelne Seite",
+          "price": "990€",
+          "description": "Eine Landing Page",
+          "features": [
+            "1 Landing Page",
+            "1 Revision inklusive",
+            "Deployment inklusive",
+            "Quellcode inklusive"
+          ],
+          "ctaLabel": "Loslegen"
+        },
+        {
+          "name": "Paket",
+          "price": "2.490€",
+          "description": "3 Seiten",
+          "features": [
+            "3 Seiten",
+            "1 Revision inklusive",
+            "Deployment inklusive",
+            "Quellcode inklusive"
+          ],
+          "ctaLabel": "Loslegen"
+        },
+        {
+          "name": "Enterprise",
+          "price": "Individuell",
+          "description": "Individueller Scope",
+          "features": [
+            "Individueller Scope",
+            "Scope vorab definiert",
+            "Deployment inklusive",
+            "Quellcode inklusive"
+          ],
+          "ctaLabel": "Verkauf kontaktieren"
         }
       ]
     },
     "faq": {
       "heading": "Häufig gestellte Fragen",
-      "subtitle": "Alles, was Sie vor dem Start wissen müssen",
+      "subtitle": "Alles was Sie wissen müssen",
       "items": [
         {
-          "question": "Müssen wir uns von Anfang an festlegen?",
-          "answer": "Nein. Sie starten mit Core und erweitern nur dann auf Operations oder Full Platform, wenn es für Ihren Betrieb sinnvoll ist. Es gibt keinen Datenverlust und keine Neu-Einrichtung beim Upgrade."
+          "question": "Wie lange dauert es?",
+          "answer": "Typische Zeitschiene ist eine Woche von den Anforderungen bis zum Deployment."
         },
         {
-          "question": "Wie funktioniert der Test?",
-          "answer": "Sie testen Fahrly mit Ihren eigenen Abläufen. Auf Wunsch richten wir das Konto gemeinsam mit Ihnen ein und stellen Beispieldaten bereit. Kein Vertrag und keine automatische Verlängerung während des Tests."
+          "question": "Kann ich nach der Übergabe Änderungen vornehmen?",
+          "answer": "Eine Revision ist inklusive. Zusätzliche Revisionen kosten 100 € pro Revision. Sie erhalten auch den Quellcode, um Updates selbst vorzunehmen."
         },
         {
-          "question": "Gibt es Mindestlaufzeiten oder langfristige Verträge?",
-          "answer": "Nein. Alle Pläne sind monatlich kündbar. Jahrespläne sind günstiger, aber optional. Sie wählen, welches Risiko- und Kostenprofil zu Ihnen passt."
-        },
-        {
-          "question": "Wie aufwendig ist die Einführung?",
-          "answer": "Core ist in der Regel innerhalb weniger Stunden einsatzbereit. Operations und Full Platform können Schritt für Schritt ausgerollt werden – auf Wunsch mit geführtem Onboarding für Dispo und Verwaltung."
-        },
-        {
-          "question": "Passt Fahrly zu unseren bestehenden Systemen?",
-          "answer": "Ja. Fahrly lässt sich mit gängigen HR-, Lohn-, Telematik- und Reporting-Systemen verbinden. Falls eine spezifische Integration fehlt, klären wir das vor dem Start, damit Sie mit voller Transparenz entscheiden können."
-        },
-        {
-          "question": "Was passiert, wenn wir wachsen?",
-          "answer": "Sie fügen einfach Nutzer, Module oder Standorte hinzu. Fahrly ist für Mehr-Depot-Betriebe ausgelegt – Sie brauchen kein neues System und keine Datenmigration, wenn Fuhrpark oder Team wachsen."
+          "question": "Was muss ich bereitstellen?",
+          "answer": "Anforderungen, Ziele und Brand-Assets. Falls nötig, Zugriff für Deployment. Wir übernehmen Design, Entwicklung und Optimierung."
         }
       ]
     },
     "testimonials": {
-      "heading": "Was Kunden mit Fahrly erreichen",
-      "subtitle": "Fahrly unterstützt Disposition, Personal und Fuhrparkteams dabei, ihren Alltag zu strukturieren – weniger Abstimmung, weniger Fehler, mehr planbarer Betrieb.",
-      "labels": {
-        "customer": "Kunde",
-        "outcome": "Ergebnis",
-        "description": "Ablauf"
-      },
+      "heading": "Was unsere Kunden sagen",
+      "subtitle": "Vertraut von Gründern und Agenturen",
       "testimonials": [
         {
-          "customer": "MK25 GmbH · Shadea Kald, Geschäftsführer",
-          "outcome": "150 € Ersparnis pro Tag",
-          "description": "Mit Fahrly plant MK25 alle Fahrten zentral im System. Die Disposition arbeitet ohne WhatsApp-Chats und Excel-Listen und spart so täglich rund 3 Stunden manueller Koordination."
+          "quote": "Wir brauchten schnell eine Landing Page für unseren Produktlaunch. Sie haben genau das geliefert, was wir brauchten, pünktlich.",
+          "name": "Sarah Johnson",
+          "role": "Gründerin",
+          "metric": "Schnelle Lieferung"
         },
         {
-          "customer": "AC Empire GmbH · Alper Coskun, Geschäftsführer",
-          "outcome": "Über 2.000 € Ersparnis pro Jahr",
-          "description": "Der automatische Gehaltsrechner reduziert den manuellen Aufwand in der Lohnabrechnung erheblich. AC Empire spart jede Woche rund 2 Stunden und vermeidet Abrechnungsfehler."
+          "quote": "Die Qualität ist außergewöhnlich und die Geschwindigkeit ist unübertroffen. Die beste Investition dieses Quartal.",
+          "name": "Michael Chen",
+          "role": "Marketing-Direktor",
+          "metric": "Vorhersagbarer Scope"
         },
         {
-          "customer": "Atash GmbH · Geschäftsführer",
-          "outcome": "30 % weniger ungeplante Reparaturen",
-          "description": "Durch automatische Wartungserinnerungen erkennt Atash notwendige Instandhaltungen frühzeitig. Ungeplante Reparaturen sinken um 30 %, die monatlichen Kosten um über 500 €."
+          "quote": "Als Agentur nutzen wir sie für alle Kunden-Landing-Pages. Konsistente Qualität jedes Mal.",
+          "name": "Emma Williams",
+          "role": "Creative Director",
+          "metric": "Performance-Ready"
         }
       ]
     },
     "finalCta": {
-      "heading": "Bereit für Fahrly?",
-      "subtitle": "Starten Sie mit Core und erweitern Sie die Plattform Schritt für Schritt – oder sprechen Sie mit uns über Ihre Anforderungen.",
-      "ctaLabel": "Fahrly testen"
+      "heading": "Bereit loszulegen?",
+      "subtitle": "Erhalten Sie Ihre Landing Page oder Website geliefert in einer Woche",
+      "ctaLabel": "Loslegen"
     }
   }
 }

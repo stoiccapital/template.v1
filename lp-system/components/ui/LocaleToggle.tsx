@@ -49,7 +49,7 @@ export function LocaleToggle() {
         }
       }}
     >
-      {currentLocale.toUpperCase()}
+      {otherLocale.toUpperCase()}
     </button>
   );
 }

@@ -2,14 +2,10 @@ import React from 'react';
 import { spacing, typography, colors, components, ColorTheme } from '../../config/design-system';
 
 export type TestimonialCardProps = {
-  customer: string;
-  outcome: string;
-  description: string;
-  labels: {
-    customer: string;
-    outcome: string;
-    description: string;
-  };
+  quote: string;
+  name: string;
+  role: string;
+  metric?: string;
   theme: ColorTheme;
   className?: string;
 };
@@ -21,10 +17,10 @@ export type TestimonialCardProps = {
  * Does NOT own: Section-level spacing
  */
 export function TestimonialCard({
-  customer,
-  outcome,
-  description,
-  labels,
+  quote,
+  name,
+  role,
+  metric,
   theme,
   className = '',
 }: TestimonialCardProps) {
@@ -51,31 +47,29 @@ export function TestimonialCard({
         ${className}
       `}
     >
-      <div className={`${typography.label} text-text-muted ${spacing.block.y.sm}`}>
-        {labels.outcome}
-      </div>
-      <div className={`
-        ${typography.h3}
-        ${isDark ? colors.dark.accent.primary : themeColors.accent.primary}
-        ${spacing.block.y.sm}
-      `}>
-        {outcome}
-      </div>
-
-      <div className={`${typography.label} text-text-muted ${spacing.block.y.sm}`}>
-        {labels.description}
-      </div>
-      <p className={`${typography.body} text-text-secondary ${spacing.block.y.md}`}>
-        {description}
+      <p className={`${typography.body} text-text-secondary italic ${spacing.block.y.md}`}>
+        &ldquo;{quote}&rdquo;
       </p>
-
-      <div className={`mt-auto ${spacing.block.y.sm}`}>
+      
+      <div className={`mt-auto ${spacing.block.y.md}`}>
+        <div className={`${typography.h3} text-text-primary ${spacing.block.y.sm}`}>
+          {name}
+        </div>
+        
         <div className={`${typography.label} text-text-muted ${spacing.block.y.sm}`}>
-          {labels.customer}
+          {role}
         </div>
-        <div className={`${typography.body} text-text-primary`}>
-          {customer}
-        </div>
+        
+        {metric && (
+          <div className={`
+            ${typography.textXs}
+            ${isDark ? colors.dark.accent.primary : themeColors.accent.primary}
+            font-medium
+            ${spacing.block.y.sm}
+          `}>
+            {metric}
+          </div>
+        )}
       </div>
     </div>
   );

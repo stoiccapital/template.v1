@@ -46,14 +46,14 @@ export type ShellMessages = {
 const shellMessages: Record<'en' | 'de', ShellMessages> = {
   en: {
     navbar: {
-      brand: 'Fahrly',
+      brand: 'Logo',
       links: {
         features: 'Features',
         pricing: 'Pricing',
         useCases: 'Use Cases',
         faq: 'FAQ',
       },
-      cta: 'Free Trial',
+      cta: 'Get Started',
       ariaLabels: {
         goToHomepage: 'Go to homepage',
         switchToEnglish: 'Switch to English',
@@ -63,7 +63,7 @@ const shellMessages: Record<'en' | 'de', ShellMessages> = {
       },
     },
     footer: {
-      copyright: '© 2024 Fahrly. All rights reserved.',
+      copyright: '© 2024 Company Name. All rights reserved.',
       links: {
         privacy: 'Privacy',
         terms: 'Terms',
@@ -73,14 +73,14 @@ const shellMessages: Record<'en' | 'de', ShellMessages> = {
   },
   de: {
     navbar: {
-      brand: 'Fahrly',
+      brand: 'Logo',
       links: {
         features: 'Funktionen',
         pricing: 'Preise',
         useCases: 'Anwendungsfälle',
         faq: 'FAQ',
       },
-      cta: 'Fahrly testen',
+      cta: 'Loslegen',
       ariaLabels: {
         goToHomepage: 'Zur Startseite',
         switchToEnglish: 'Zu Englisch wechseln',
@@ -90,7 +90,7 @@ const shellMessages: Record<'en' | 'de', ShellMessages> = {
       },
     },
     footer: {
-      copyright: '© 2024 Fahrly. Alle Rechte vorbehalten.',
+      copyright: '© 2024 Firmenname. Alle Rechte vorbehalten.',
       links: {
         privacy: 'Datenschutz',
         terms: 'Nutzungsbedingungen',

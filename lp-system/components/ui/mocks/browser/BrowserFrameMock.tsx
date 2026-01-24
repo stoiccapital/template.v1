@@ -11,64 +11,46 @@ export type BrowserFrameMockProps = {
 };
 
 /**
- * Browser Frame Mock (Stripe-style, simplified)
- *
- * - Soft card with radius + shadow, no heavy border
- * - Thin top bar with subtle window controls
- * - Optional, low-key URL pill
- * - Inner canvas for mock UI
- *
+ * Browser Frame Mock
+ * 
+ * Shared primitive that renders the outer "browser window" frame:
+ * - Top bar with 3 decorative dots
+ * - URL pill (optional URL string)
+ * - Children area (inner canvas)
+ * 
+ * Uses only design tokens - no arbitrary values.
+ * Works in both light and dark modes via semantic tokens.
+ * 
  * Accessibility: Entire mock is decorative and marked aria-hidden by default.
+ * No focusable elements are created.
  */
-export function BrowserFrameMock({
-  url,
-  ariaHidden = true,
-  children,
-}: BrowserFrameMockProps) {
+export function BrowserFrameMock({ url, ariaHidden = true, children }: BrowserFrameMockProps) {
   return (
-    <div
-      aria-hidden={ariaHidden ? 'true' : undefined}
-      className={`
-        ${components.surface.radius}
-        ${components.shadow.surface2}
-        bg-bg-elevated
-        overflow-hidden
-      `}
+    <div 
+      aria-hidden={ariaHidden ? "true" : undefined}
+      className={`${components.surface.radius} ${components.shadow.surface2} border border-border-subtle bg-bg-default overflow-hidden`}
     >
-      {/* Top browser bar */}
-      <div className="flex items-center gap-3 h-9 px-4 border-b border-border-subtle bg-bg-subtle">
-        {/* Window controls (tiny, very low emphasis) */}
-        <div className="flex gap-1.5" aria-hidden="true">
-          <div className="w-2 h-2 rounded-full bg-border-subtle" />
-          <div className="w-2 h-2 rounded-full bg-border-subtle" />
-          <div className="w-2 h-2 rounded-full bg-border-subtle" />
+      {/* Browser window frame */}
+      <div className="bg-bg-neutral border-b border-border-subtle px-4 py-3 flex items-center gap-3">
+        {/* Window controls (decorative dots) */}
+        <div className="flex gap-2" aria-hidden="true">
+          <div className="w-3 h-3 rounded-full bg-text-muted opacity-50"></div>
+          <div className="w-3 h-3 rounded-full bg-text-muted opacity-50"></div>
+          <div className="w-3 h-3 rounded-full bg-text-muted opacity-50"></div>
         </div>
-
-        {/* Centered URL pill (optional, muted) */}
+        {/* URL pill */}
         {url && (
-          <div className="flex-1 flex justify-center">
-            <div
-              className={`
-                max-w-xs w-full
-                flex items-center
-                px-3 py-1.5
-                rounded-full
-                bg-bg-default
-                border border-border-subtle
-              `}
-            >
-              <span className="text-[11px] leading-none text-text-muted truncate">
-                {url}
-              </span>
-            </div>
+          <div className={`flex-1 ${components.surface.radius} bg-bg-default border border-border-subtle px-4 py-2 max-w-md`}>
+            <div className="text-text-muted text-xs truncate">{url}</div>
           </div>
         )}
       </div>
 
       {/* Inner canvas */}
-      <div className="bg-bg-default p-5 sm:p-6">
+      <div className="bg-bg-default p-6">
         {children}
       </div>
     </div>
   );
 }
+

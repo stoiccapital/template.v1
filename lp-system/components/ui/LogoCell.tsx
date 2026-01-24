@@ -1,5 +1,5 @@
 import React from 'react';
-import { spacing, colors, typography, ColorTheme } from '../../config/design-system';
+import { spacing, colors, components, ColorTheme } from '../../config/design-system';
 
 export type LogoCellProps = {
   src?: string;
@@ -15,43 +15,52 @@ export type LogoCellProps = {
  * Owns: Internal padding, logo height, border styling
  * Does NOT own: Section-level spacing
  */
-export function LogoCell({ alt, theme, className = '', wrapperClassName = '' }: LogoCellProps) {
+export function LogoCell({ src, alt, theme, className = '', wrapperClassName = '' }: LogoCellProps) {
   const themeColors = colors[theme];
-  const backgroundClass = themeColors.background.neutral;
-  const borderClass = themeColors.divider.subtle;
+  const isDark = theme === 'dark';
+  
+  const borderClass = isDark ? colors.dark.divider.subtle : themeColors.divider.subtle;
+  const opacityClass = isDark ? 'opacity-70 hover:opacity-100' : 'opacity-80 hover:opacity-100';
 
   return (
     <div
       className={`
         ${spacing.logo.pad.md}
-        ${spacing.metricsSlots.label}
-        w-full
-        ${backgroundClass}
         ${borderClass}
         border
         ${spacing.logo.width.md}
         flex
         items-center
         justify-center
+        ${components.transition.default}
         ${wrapperClassName}
       `}
     >
-      <div
-        className={`
+      {src ? (
+        <img
+          src={src}
+          alt={alt}
+          className={`
+            ${spacing.logo.height.md}
+            w-auto
+            object-contain
+            ${opacityClass}
+            ${components.transition.default}
+            ${className}
+          `}
+        />
+      ) : (
+        <div className={`
           ${spacing.logo.height.md}
-          w-full
-          text-text-secondary
-          ${typography.label}
-          text-center
-          break-words
-          flex
-          items-center
-          justify-center
+          w-auto
+          text-text-muted
+          text-xs
+          ${opacityClass}
           ${className}
-        `}
-      >
-        {alt}
-      </div>
+        `}>
+          {alt}
+        </div>
+      )}
     </div>
   );
 }

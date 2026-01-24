@@ -23,7 +23,7 @@ export function LogoGrid({ logos, theme, className = '' }: LogoGridProps) {
       ${spacing.grid.x.md}
       ${spacing.grid.y.md}
       items-center
-      justify-items-stretch
+      justify-items-center
       ${layout.container.maxWidth}
       mx-auto
       ${className}

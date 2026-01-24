@@ -1,11 +1,9 @@
 import React from 'react';
 import type { SectionValuePropsCopy } from '../config/types';
 import { CenteredLayout } from '../components/layouts/CenteredLayout';
-import { SplitGrid } from '../components/layouts/SplitGrid';
 import { FeatureCard } from '../components/ui/FeatureCard';
 import { Icon } from '../components/ui/Icon';
 import { CalendarIcon, SettingsIcon, ChartIcon } from '../components/icons';
-import { ValuePropMock } from '../components/ui/mocks';
 import { spacing, typography, globalBackground, ColorTheme } from '../config/design-system';
 
 export type ValuePropsProps = {
@@ -64,29 +62,15 @@ export function ValueProps({ copy, theme }: ValuePropsProps) {
   return (
     <section id="value-props" data-section-id="value-props" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>
       <CenteredLayout>
-        <SplitGrid>
-          <div>
-            {copy.eyebrow && (
-              <div className={`${typography.label} text-text-muted ${spacing.block.y.sm}`}>
-                {copy.eyebrow}
-              </div>
-            )}
-            <h2 className={`${typography.h1} text-text-primary ${spacing.block.y.md}`}>
-              {copy.heading}
-            </h2>
-            <p className={`${typography.body} text-text-secondary ${spacing.block.y.md}`}>
-              {copy.subtitle}
-            </p>
-            {featureCards.length > 0 && (
-              <div className={`grid grid-cols-1 ${spacing.grid.y.md}`}>
-                {featureCards}
-              </div>
-            )}
-          </div>
-          <div className="flex justify-center">
-            <ValuePropMock kind="timeline" />
-          </div>
-        </SplitGrid>
+        <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
+          {copy.heading}
+        </h2>
+        <p className={`${typography.body} text-text-secondary ${spacing.block.y.md}`}>
+          {copy.subtitle}
+        </p>
+        <div className={`grid grid-cols-1 md:grid-cols-3 ${spacing.grid.x.md} ${spacing.grid.y.md}`}>
+          {featureCards}
+        </div>
       </CenteredLayout>
     </section>
   );

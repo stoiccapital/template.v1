@@ -1,296 +1,225 @@
 {
   "example-lp": {
     "hero": {
-      "eyebrow": "Fleet Operations Platform",
-      "title": "One platform for dispatch, workforce, fleet, and compliance",
-      "subtitle": "Fahrly brings daily operations, people management, fleet visibility, and compliance into one system. Start with core workflows and add modules as you grow.",
-      "primaryCtaLabel": "Test Fahrly",
-      "secondaryCtaLabel": "View pricing"
+      "eyebrow": "Productized Landing Pages",
+      "title": "Enterprise-grade landing pages, delivered in one week",
+      "subtitle": "Product-grade landing pages and multi-page websites for agencies. Scope defined upfront, predictable delivery.",
+      "primaryCtaLabel": "Get Started",
+      "secondaryCtaLabel": "Learn More"
     },
     "socialProof": {
-      "label": "Trusted by 500+ rental fleets"
     },
     "valueProps": {
-      "eyebrow": "Modular Solutions",
-      "heading": "One integrated platform for fleet operations",
-      "subtitle": "Reduce manual work, avoid errors, and run your fleet more efficiently on one integrated platform. Use Fahrly to handle dispatch, team and shift planning, fleet visibility, and compliance – from daily operations to maintenance reminders and records.",
-      "items": []
-    },
-    "features": {
-      "eyebrow": "",
-      "heading": "",
-      "subtitle": "",
+      "heading": "Everything you need",
+      "subtitle": "Professional landing pages that convert",
       "items": [
         {
-          "eyebrow": "Fahrly Go",
-          "title": "Centralized trip assignment",
-          "body": "Plan and assign all trips from a single dashboard — clear, traceable, and in real time. Less coordination, fewer errors, and more control in daily operations."
+          "title": "One Week Delivery",
+          "body": "From requirements to deployed site in one week."
         },
         {
-          "eyebrow": "Human Resource",
-          "title": "Streamline workforce administration",
-          "body": "Save time on time tracking, digital documents, contracts, and salary calculations — all managed in one system with clear records and less manual work."
+          "title": "Consistent System",
+          "body": "Enterprise-grade structure and patterns every time."
         },
         {
-          "eyebrow": "Fleet Management",
-          "title": "Control vehicle costs with clarity",
-          "body": "Track maintenance, repairs, and ongoing vehicle costs in one system — with clear visibility and planned servicing instead of surprises."
+          "title": "Performance Ready",
+          "body": "Optimized code, responsive design, SEO-ready structure."
+        }
+      ]
+    },
+    "features": {
+      "heading": "Built for results",
+      "subtitle": "Everything that makes landing pages perform",
+      "items": [
+        {
+          "title": "Bilingual Copy Included",
+          "body": "English and German copy included by default."
         },
         {
-          "eyebrow": "Compliance",
-          "title": "Reduce compliance risk early",
-          "body": "Track return-to-base requirements, driver license checks, and regulatory obligations. Identify violations early and reduce the risk of losing operating licenses."
+          "title": "Performance Optimization",
+          "body": "Fast load times and optimized assets built in."
+        },
+        {
+          "title": "Deployment Ready",
+          "body": "Deployed and ready to go, source code included."
         }
       ]
     },
     "deepDive": {
-      "eyebrow": "Introduction",
-      "heading": "How Fahrly works in operations",
-      "subtitle": "Start with structure and expand step by step — without operational breaks",
+      "heading": "How it works",
+      "subtitle": "One week from start to launch",
       "steps": [
         {
-          "title": "Map core processes",
-          "body": "Dispatch and communication are set up first. Existing workflows stay stable while transparency and structure increase."
+          "title": "Define scope upfront",
+          "body": "Share requirements, goals, and brand assets. Scope is defined before work begins."
         },
         {
-          "title": "Connect operations and workforce",
-          "body": "Work hours, shifts, and roles are integrated. Operational planning and workforce management work together."
+          "title": "We build in one week",
+          "body": "Your landing page or website is built with copy, responsive design, dark/light mode, and performance optimization."
         },
         {
-          "title": "Secure fleet and compliance",
-          "body": "Vehicle status, maintenance, and compliance requirements are centrally visible. Risks and deviations are detected early."
+          "title": "One revision included, then launch",
+          "body": "Review, make adjustments with your included revision, and deploy. Source code delivered."
         }
       ]
     },
     "useCases": {
-      "heading": "Support for operational fleet management",
-      "subtitle": "Whether dispatch, workforce management, or compliance, Fahrly brings the core processes of modern fleet and platform operators into a single system.",
+      "heading": "Perfect for",
+      "subtitle": "Built for agencies and teams",
       "items": [
         {
-          "title": "Assign rides centrally",
-          "body": "All rides are planned and distributed from a single dashboard. Dispatch teams keep full visibility, react in real time to changes, and reduce coordination effort and operational errors."
+          "title": "Agencies",
+          "body": "Deliver client websites and landing pages with predictable timelines and consistent quality."
         },
         {
-          "title": "Workforce and HR operations",
-          "body": "Working hours, documents, contracts, and payroll-relevant data are managed in one system. HR and workforce managers save time, avoid media breaks, and work from a consistent data set."
+          "title": "Product Launches",
+          "body": "Get a professional landing page delivered in one week for your launch."
         },
         {
-          "title": "Fleet operations and cost control",
-          "body": "Maintenance, repairs, and running vehicle costs are tracked in a structured way. Fleet leads plan maintenance proactively and keep costs under control over time."
-        },
-        {
-          "title": "Spot compliance risks early",
-          "body": "Return obligations, license checks, and other requirements are monitored continuously. Issues are detected early, risks are reduced, and day-to-day operations stay protected."
+          "title": "Marketing Campaigns",
+          "body": "Create dedicated pages for campaigns with fast turnaround."
         }
       ]
     },
     "integrations": {
-      "eyebrow": "Integration",
-      "heading": "Connects to the systems you already use",
-      "subtitle": "Uber — trips, drivers, and earnings synced automatically",
+      "heading": "Works with your stack",
+      "subtitle": "Easy handoff to your existing tools",
       "integrations": [
-        { "name": "Uber — trips, drivers, and earnings synced automatically" }
+        { "name": "Vercel" },
+        { "name": "Netlify" },
+        { "name": "CMS" },
+        { "name": "Analytics" },
+        { "name": "Payments" },
+        { "name": "Email Tools" }
       ]
     },
     "security": {
-      "heading": "Operational reliability",
-      "subtitle": "Built for stable, auditable workflows",
+      "heading": "Code quality",
+      "subtitle": "Production-ready code you can trust",
       "items": [
         {
-          "title": "Role-based access",
-          "body": "Control who can see and change key records."
+          "title": "Enterprise-Grade Code",
+          "body": "Well-structured, maintainable code following best practices."
         },
         {
-          "title": "Audit-ready records",
-          "body": "Keep clear history for operational and compliance reviews."
+          "title": "SEO-Ready Structure",
+          "body": "Built with search visibility and performance optimization."
         },
         {
-          "title": "Data export and retention",
-          "body": "Maintain records in the format your team requires."
+          "title": "Responsive + Dark/Light Mode",
+          "body": "Tested across devices with theme support included."
         }
       ]
     },
     "metrics": {
-      "heading": "Platform in active operation",
-      "subtitle": "Fahrly connects dispatch, drivers, and vehicles in a single system. Live data from integrated platforms enables continuous operations.",
+      "heading": "Proven performance",
+      "subtitle": "Results that speak for themselves",
       "metrics": [
         {
-          "value": "10,000+ active drivers",
-          "label": "managed and tracked in the system",
-          "description": ""
+          "value": "7 days",
+          "label": "Average delivery time",
+          "description": "From kickoff to deployment"
         },
         {
-          "value": "5,000+ vehicles",
-          "label": "centrally organized and assigned",
-          "description": ""
+          "value": "100%",
+          "label": "Defined scope",
+          "description": "No surprises during execution"
         },
         {
-          "value": "500+ companies",
-          "label": "using the platform in daily operations",
-          "description": ""
+          "value": "0 days",
+          "label": "Deployment standard",
+          "description": "No additional preparation required"
         }
       ]
     },
     "pricing": {
-      "heading": "Pricing",
-      "subtitle": "Solo or team — monthly or annual",
-      "singleUserLabel": "1 user",
-      "singleUserTitle": "1 user — overview",
-      "billingToggle": {
-        "label": "Billing period",
-        "monthly": "Monthly",
-        "yearly": "Annual",
-        "yearlyBadge": "Save 20%"
-      },
-      "singleUserLabels": {
-        "monthly": "monthly",
-        "yearly": "annual"
-      },
+      "heading": "Simple pricing",
+      "subtitle": "Choose the plan that works for you",
       "plans": [
         {
-          "id": "core",
-          "title": "Core",
-          "billing": {
-            "monthly": {
-              "price": "€50 / month",
-              "detail": "Team · monthly billing"
-            },
-            "yearly": {
-              "price": "€40 / month",
-              "subPrice": "(€480 / year)",
-              "detail": "Team · annual billing"
-            }
-          },
-          "body": "Daily operations and dispatch",
+          "name": "Single Page",
+          "price": "$1,190",
+          "description": "One landing page",
           "features": [
-            "Dispatch and routing",
-            "Team communication",
-            "Basic reporting",
-            "Email support"
+            "1 landing page",
+            "1 revision included",
+            "Deployment included",
+            "Source code included"
           ],
-          "singleUser": {
-            "monthly": "€30 / month",
-            "yearly": "€288 / year"
-          },
-          "ctaLabel": "Start Core"
+          "ctaLabel": "Get Started"
         },
         {
-          "id": "operations",
-          "title": "Operations",
-          "billing": {
-            "monthly": {
-              "price": "€100 / month",
-              "detail": "Team · monthly billing"
-            },
-            "yearly": {
-              "price": "€80 / month",
-              "subPrice": "(€960 / year)",
-              "detail": "Team · annual billing"
-            }
-          },
-          "body": "Operations & workforce management",
+          "name": "Package",
+          "price": "$2,990",
+          "description": "3 pages",
           "features": [
-            "Everything in Core",
-            "Scheduling and availability",
-            "Time and role management",
-            "Operational reporting"
+            "3 pages",
+            "1 revision included",
+            "Deployment included",
+            "Source code included"
           ],
-          "singleUser": {
-            "monthly": "€60 / month",
-            "yearly": "€576 / year"
-          },
-          "ctaLabel": "Start Operations",
-          "isPopular": true
+          "ctaLabel": "Get Started"
         },
         {
-          "id": "full",
-          "title": "Full Platform",
-          "billing": {
-            "monthly": {
-              "price": "€200 / month",
-              "detail": "Team · monthly billing"
-            },
-            "yearly": {
-              "price": "€160 / month",
-              "subPrice": "(€1,920 / year)",
-              "detail": "Team · annual billing"
-            }
-          },
-          "body": "Full operations & compliance",
+          "name": "Enterprise",
+          "price": "Custom",
+          "description": "Custom scope",
           "features": [
-            "Everything in Operations",
-            "Fleet readiness tracking",
-            "Compliance workflows",
-            "Priority onboarding"
+            "Custom scope",
+            "Scope defined upfront",
+            "Deployment included",
+            "Source code included"
           ],
-          "singleUser": {
-            "monthly": "€120 / month",
-            "yearly": "€1,152 / year"
-          },
-          "ctaLabel": "Talk to sales"
+          "ctaLabel": "Contact Sales"
         }
       ]
     },
     "faq": {
       "heading": "Frequently asked questions",
-      "subtitle": "Everything you need to know before you start",
+      "subtitle": "Everything you need to know",
       "items": [
         {
-          "question": "Do we have to commit from day one?",
-          "answer": "No. You start with Core and only add Operations or Full Platform when it makes sense for your operation. There is no loss of data and no reimplementation when you upgrade."
+          "question": "How long does it take?",
+          "answer": "Typical timeline is one week from requirements to deployment."
         },
         {
-          "question": "How does the trial work?",
-          "answer": "You test Fahrly with your own workflows. On request, we set up the account together with you and provide example data. No contract and no automatic renewal during the trial."
+          "question": "Can I make changes after delivery?",
+          "answer": "One revision is included. Additional revisions are $100 per revision. You also receive source code to make updates yourself."
         },
         {
-          "question": "Are there minimum terms or long-term contracts?",
-          "answer": "No. All plans are cancellable monthly. Annual plans are cheaper, but they are optional. You choose what fits your risk profile."
-        },
-        {
-          "question": "How much effort is the rollout?",
-          "answer": "Core is usually ready to use within hours. Operations and Full Platform can be rolled out step by step and, if you like, with guided onboarding for dispatch and admin teams."
-        },
-        {
-          "question": "Will Fahrly work with our existing systems?",
-          "answer": "Yes. Fahrly connects to common HR, payroll, telematics and reporting systems. If a specific integration is missing, we clarify that before you start so you can decide with full information."
-        },
-        {
-          "question": "What happens when we grow?",
-          "answer": "You simply add users, modules or locations. Fahrly is designed for multi-depot operations, so you don’t need a new system or data migration when your fleet or team scales."
+          "question": "What do I need to provide?",
+          "answer": "Requirements, goals, and brand assets. If needed, access for deployment. We handle design, development, and optimization."
         }
       ]
     },
     "testimonials": {
-      "heading": "What customers achieve with Fahrly",
-      "subtitle": "Fahrly helps dispatch, workforce, and fleet teams structure their day-to-day operations — less coordination, fewer errors, and more predictable execution.",
-      "labels": {
-        "customer": "Customer",
-        "outcome": "Outcome",
-        "description": "How it works"
-      },
+      "heading": "What our customers say",
+      "subtitle": "Trusted by founders and agencies",
       "testimonials": [
         {
-          "customer": "MK25 GmbH · Shadea Kald, Managing Director",
-          "outcome": "€150 saved per day",
-          "description": "MK25 plans all trips centrally in Fahrly. Dispatch works without WhatsApp chats or Excel lists and saves around 3 hours of manual coordination each day."
+          "quote": "We needed a landing page fast for our product launch. They delivered exactly what we needed on time.",
+          "name": "Sarah Johnson",
+          "role": "Founder",
+          "metric": "Fast delivery"
         },
         {
-          "customer": "AC Empire GmbH · Alper Coskun, Managing Director",
-          "outcome": "€2,000+ saved per year",
-          "description": "The automatic payroll calculator cuts manual effort in payroll processing. AC Empire saves around 2 hours per week and avoids payroll errors."
+          "quote": "The quality is exceptional and the speed is unmatched. Best investment we made this quarter.",
+          "name": "Michael Chen",
+          "role": "Marketing Director",
+          "metric": "Predictable scope"
         },
         {
-          "customer": "Atash GmbH · Managing Director",
-          "outcome": "30% fewer unplanned repairs",
-          "description": "Automated maintenance reminders help Atash identify service needs early. Unplanned repairs drop by 30% and monthly costs fall by more than €500."
+          "quote": "As an agency, we use them for all our client landing pages. Consistent quality every time.",
+          "name": "Emma Williams",
+          "role": "Creative Director",
+          "metric": "Performance ready"
         }
       ]
     },
     "finalCta": {
-      "heading": "Ready to get started with Fahrly?",
-      "subtitle": "Start with Core and expand the platform as needed — or talk to us about your requirements.",
-      "ctaLabel": "Test Fahrly"
+      "heading": "Ready to get started?",
+      "subtitle": "Get your landing page or website delivered in one week",
+      "ctaLabel": "Get Started"
     }
   }
 }

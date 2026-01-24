@@ -41,13 +41,6 @@ export function Features({ copy, theme }: FeaturesProps) {
   return (
     <section id="features" data-section-id="features" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>
       <SingleColumn>
-        {copy.eyebrow && (
-          <div className={spacing.block.y.sm}>
-            <div className={`${typography.label} text-text-muted`}>
-              {copy.eyebrow}
-            </div>
-          </div>
-        )}
         <div className={spacing.block.y.md}>
           <h2 className={`${typography.h2} text-text-primary`}>
             {copy.heading}
@@ -64,13 +57,6 @@ export function Features({ copy, theme }: FeaturesProps) {
             <div key={index} className={index < copy.items.length - 1 ? spacing.block.y.xl : ''}>
               <SplitGrid>
                 <div className="text-left">
-                  {item.eyebrow && (
-                    <div className={spacing.block.y.sm}>
-                      <div className={`${typography.label} text-text-muted`}>
-                        {item.eyebrow}
-                      </div>
-                    </div>
-                  )}
                   <div className={spacing.block.y.md}>
                     <h3 className={`${typography.h3} text-text-primary`}>
                       {item.title}

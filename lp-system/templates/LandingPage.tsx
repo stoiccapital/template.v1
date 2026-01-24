@@ -11,6 +11,7 @@ import { ValueProps } from '../sections/ValueProps';
 import { Features } from '../sections/Features';
 import { DeepDive } from '../sections/DeepDive';
 import { UseCases } from '../sections/UseCases';
+import { Integrations } from '../sections/Integrations';
 import { Metrics } from '../sections/Metrics';
 import { Security } from '../sections/Security';
 import { Testimonials } from '../sections/Testimonials';
@@ -76,23 +77,20 @@ export function LandingPageTemplate({
       <Features copy={copy.features} theme={theme} />
       
       {/* 6. Deep Dive */}
-      <DeepDive copy={copy.deepDive || { eyebrow: 'Placeholder', heading: 'Deep Dive', subtitle: 'Learn more', steps: [] }} theme={theme} />
+      <DeepDive copy={copy.deepDive || { heading: 'Deep Dive', subtitle: 'Learn more', steps: [] }} theme={theme} />
       
-      {/* 7. Metrics */}
-      <Metrics copy={copy.metrics || { heading: 'Metrics', subtitle: 'Proven results', metrics: [] }} theme={theme} />
-
-      {/* 8. Integrations *
-      
-      <Integrations copy={copy.integrations || { heading: 'Integrations', subtitle: 'Works with your tools', integrations: [] }} theme={theme} />
-      /}
-
-      {/* 9. Use Cases */}
+      {/* 7. Use Cases */}
       <UseCases copy={copy.useCases || { heading: 'Use Cases', subtitle: 'Built for your workflows', items: [] }} theme={theme} />
-
       
-      {/* 10. Security *
+      {/* 8. Integrations */}
+      <Integrations copy={copy.integrations || { heading: 'Integrations', subtitle: 'Works with your tools', integrations: [] }} theme={theme} />
+      
+      {/* 9. Metrics */}
+      <Metrics copy={copy.metrics || { heading: 'Metrics', subtitle: 'Proven results', metrics: [] }} theme={theme} />
+      
+      {/* 10. Security */}
       <Security copy={copy.security || { heading: 'Security', subtitle: 'Enterprise-grade protection', items: [] }} theme={theme} />
-      /}
+      
       {/* 11. Testimonials */}
       <Testimonials copy={copy.testimonials || { heading: 'What customers say', subtitle: 'Trusted by teams worldwide', testimonials: [] }} theme={theme} />
       
