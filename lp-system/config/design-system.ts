@@ -112,6 +112,8 @@ export const typography = {
   body: 'text-base lg:text-lg leading-relaxed',
   label: 'text-sm font-medium',
   textXs: 'text-xs',
+  // Section header container width (50% on desktop, full width on mobile)
+  sectionHeader: 'w-full md:w-1/2',
 } as const;
 
 // ============================================================================
@@ -289,16 +291,16 @@ export const components = {
   button: {
     // White, slim CTA buttons
     primary: {
-      base: 'px-5 py-2 rounded-full font-medium transition-all duration-150 ease-out focus:outline-none focus:ring-2 focus:ring-ring-focus focus:ring-offset-2 focus:ring-offset-ring-focus',
+      base: 'px-5 py-2 rounded-xl font-medium transition-all duration-150 ease-out focus:outline-none focus:ring-2 focus:ring-ring-focus focus:ring-offset-2 focus:ring-offset-ring-focus',
       // Slim vertical padding (py-2), horizontal padding (px-5)
       // Rounded-full for pill shape
       // transition-all includes shadow transitions for hover lift effect
     },
     secondary: {
-      base: 'px-5 py-2 rounded-full font-medium transition-colors duration-150 ease-out border focus:outline-none focus:ring-2 focus:ring-ring-focus focus:ring-offset-2 focus:ring-offset-ring-focus',
+      base: 'px-5 py-2 rounded-xl font-medium transition-colors duration-150 ease-out border focus:outline-none focus:ring-2 focus:ring-ring-focus focus:ring-offset-2 focus:ring-offset-ring-focus',
       // Ghost variant with border
     },
-    radius: 'rounded-full', // Pill-shaped radius token
+    radius: 'rounded-xl', // Button radius token (matches media radius)
   },
   // Surface radius token (single radius for all surfaces)
   surface: {
@@ -306,7 +308,7 @@ export const components = {
   },
   radius: {
     card: 'rounded-xl',
-    button: 'rounded-full',
+    button: 'rounded-xl',
     media: 'rounded-xl',
   },
   card: {
@@ -332,10 +334,6 @@ export const components = {
     numericColumn: {
       width: '7.5rem',
     },
-  },
-  // Mock component tokens
-  mock: {
-    heroCanvasHeight: 'h-96', // Fixed height for hero mock scrollable canvas (~384px)
   },
   shadow: {
     surface1: 'shadow-sm',

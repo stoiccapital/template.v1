@@ -4,10 +4,9 @@ import React from 'react';
 import type { SectionHeroCopy } from '../config/types';
 import { CTAButton } from '../components/ui/CTAButton';
 import { CTAGroup } from '../components/ui/CTAGroup';
-import { DashboardMock } from '../components/ui/mocks';
-import { SplitGrid } from '../components/layouts/SplitGrid';
 import { CenteredLayout } from '../components/layouts/CenteredLayout';
-import { spacing, typography, maxTextWidth, globalBackground, ColorTheme } from '../config/design-system';
+import { SplitGrid } from '../components/layouts/SplitGrid';
+import { spacing, typography, maxTextWidth, globalBackground, components, ColorTheme } from '../config/design-system';
 
 export type HeroProps = {
   copy: SectionHeroCopy;
@@ -56,7 +55,11 @@ export function Hero({ copy, theme }: HeroProps) {
               </CTAGroup>
             </div>
           </div>
-          <DashboardMock />
+          <div className="flex justify-center lg:justify-end">
+            <div className={`w-full ${components.media.maxWidth.xl} ${components.media.aspectRatios['16:9']} ${components.radius.media} border border-border-subtle bg-bg-neutral flex items-center justify-center`}>
+              <div className="text-text-muted text-sm">Image</div>
+            </div>
+          </div>
         </SplitGrid>
       </CenteredLayout>
     </section>

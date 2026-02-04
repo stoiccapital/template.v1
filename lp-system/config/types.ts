@@ -102,6 +102,17 @@ export type SectionFinalCtaCopy = {
 export type SectionTestimonialsCopy = {
   heading: string;
   subtitle: string;
+  usedModulesLabel?: string;
+  googleReviews?: {
+    url?: string;
+    text?: string;
+    stars?: string;
+    ariaLabel?: string;
+  };
+  navigation?: {
+    previous?: string;
+    next?: string;
+  };
   labels?: {
     customer: string;
     outcome: string;
@@ -111,6 +122,11 @@ export type SectionTestimonialsCopy = {
     customer: string;
     outcome: string;
     description: string;
+    outcomes?: {
+      value: string;
+      label: string;
+    }[];
+    modules?: string[];
   }[];
 };
 

@@ -1,19 +1,19 @@
 {
   "example-lp": {
     "hero": {
-      "eyebrow": "Fleet Operations Platform",
-      "title": "One platform for dispatch, workforce, fleet, and compliance",
-      "subtitle": "Fahrly brings daily operations, people management, fleet visibility, and compliance into one system. Start with core workflows and add modules as you grow.",
-      "primaryCtaLabel": "Test Fahrly",
-      "secondaryCtaLabel": "View pricing"
+      "eyebrow": "Eyebrow Text",
+      "title": "Main Heading Text",
+      "subtitle": "Subtitle text describing the main value proposition and key benefits.",
+      "primaryCtaLabel": "Mock Primary CTA",
+      "secondaryCtaLabel": "Mock Secondary CTA"
     },
     "socialProof": {
-      "label": "Trusted by 500+ rental fleets"
+      "label": "Trusted by many customers"
     },
     "valueProps": {
-      "eyebrow": "Modular Solutions",
-      "heading": "One integrated platform for fleet operations",
-      "subtitle": "Reduce manual work, avoid errors, and run your fleet more efficiently on one integrated platform. Use Fahrly to handle dispatch, team and shift planning, fleet visibility, and compliance – from daily operations to maintenance reminders and records.",
+      "eyebrow": "Value Props Eyebrow",
+      "heading": "Value Props Heading",
+      "subtitle": "Value props subtitle text explaining the key benefits and value proposition of the product or service.",
       "items": []
     },
     "features": {
@@ -22,129 +22,129 @@
       "subtitle": "",
       "items": [
         {
-          "eyebrow": "Fahrly Go",
-          "title": "Centralized trip assignment",
-          "body": "Plan and assign all trips from a single dashboard — clear, traceable, and in real time. Less coordination, fewer errors, and more control in daily operations."
+          "eyebrow": "Feature 1 Eyebrow",
+          "title": "Feature 1 Title",
+          "body": "Feature 1 description text explaining the key functionality and benefits."
         },
         {
-          "eyebrow": "Human Resource",
-          "title": "Streamline workforce administration",
-          "body": "Save time on time tracking, digital documents, contracts, and salary calculations — all managed in one system with clear records and less manual work."
+          "eyebrow": "Feature 2 Eyebrow",
+          "title": "Feature 2 Title",
+          "body": "Feature 2 description text explaining the key functionality and benefits."
         },
         {
-          "eyebrow": "Fleet Management",
-          "title": "Control vehicle costs with clarity",
-          "body": "Track maintenance, repairs, and ongoing vehicle costs in one system — with clear visibility and planned servicing instead of surprises."
+          "eyebrow": "Feature 3 Eyebrow",
+          "title": "Feature 3 Title",
+          "body": "Feature 3 description text explaining the key functionality and benefits."
         },
         {
-          "eyebrow": "Compliance",
-          "title": "Reduce compliance risk early",
-          "body": "Track return-to-base requirements, driver license checks, and regulatory obligations. Identify violations early and reduce the risk of losing operating licenses."
+          "eyebrow": "Feature 4 Eyebrow",
+          "title": "Feature 4 Title",
+          "body": "Feature 4 description text explaining the key functionality and benefits."
         }
       ]
     },
     "deepDive": {
-      "eyebrow": "Introduction",
-      "heading": "How Fahrly works in operations",
-      "subtitle": "Start with structure and expand step by step — without operational breaks",
+      "eyebrow": "Deep Dive Eyebrow",
+      "heading": "Deep Dive Heading",
+      "subtitle": "Deep dive subtitle text explaining the process or methodology.",
       "steps": [
         {
-          "title": "Map core processes",
-          "body": "Dispatch and communication are set up first. Existing workflows stay stable while transparency and structure increase."
+          "title": "Step 1 Title",
+          "body": "Step 1 description text explaining what happens in this step."
         },
         {
-          "title": "Connect operations and workforce",
-          "body": "Work hours, shifts, and roles are integrated. Operational planning and workforce management work together."
+          "title": "Step 2 Title",
+          "body": "Step 2 description text explaining what happens in this step."
         },
         {
-          "title": "Secure fleet and compliance",
-          "body": "Vehicle status, maintenance, and compliance requirements are centrally visible. Risks and deviations are detected early."
+          "title": "Step 3 Title",
+          "body": "Step 3 description text explaining what happens in this step."
         }
       ]
     },
     "useCases": {
-      "heading": "Support for operational fleet management",
-      "subtitle": "Whether dispatch, workforce management, or compliance, Fahrly brings the core processes of modern fleet and platform operators into a single system.",
+      "heading": "Use Cases Heading",
+      "subtitle": "Use cases subtitle text describing the various use cases and applications.",
       "items": [
         {
-          "title": "Assign rides centrally",
-          "body": "All rides are planned and distributed from a single dashboard. Dispatch teams keep full visibility, react in real time to changes, and reduce coordination effort and operational errors."
+          "title": "Use Case 1 Title",
+          "body": "Use case 1 description text explaining how this use case works and its benefits."
         },
         {
-          "title": "Workforce and HR operations",
-          "body": "Working hours, documents, contracts, and payroll-relevant data are managed in one system. HR and workforce managers save time, avoid media breaks, and work from a consistent data set."
+          "title": "Use Case 2 Title",
+          "body": "Use case 2 description text explaining how this use case works and its benefits."
         },
         {
-          "title": "Fleet operations and cost control",
-          "body": "Maintenance, repairs, and running vehicle costs are tracked in a structured way. Fleet leads plan maintenance proactively and keep costs under control over time."
+          "title": "Use Case 3 Title",
+          "body": "Use case 3 description text explaining how this use case works and its benefits."
         },
         {
-          "title": "Spot compliance risks early",
-          "body": "Return obligations, license checks, and other requirements are monitored continuously. Issues are detected early, risks are reduced, and day-to-day operations stay protected."
+          "title": "Use Case 4 Title",
+          "body": "Use case 4 description text explaining how this use case works and its benefits."
         }
       ]
     },
     "integrations": {
-      "eyebrow": "Integration",
-      "heading": "Connects to the systems you already use",
-      "subtitle": "Uber — trips, drivers, and earnings synced automatically",
+      "eyebrow": "Integrations Eyebrow",
+      "heading": "Integrations Heading",
+      "subtitle": "Integrations subtitle text describing the available integrations.",
       "integrations": [
-        { "name": "Uber — trips, drivers, and earnings synced automatically" }
+        { "name": "Integration 1" }
       ]
     },
     "security": {
-      "heading": "Operational reliability",
-      "subtitle": "Built for stable, auditable workflows",
+      "heading": "Security Heading",
+      "subtitle": "Security subtitle text describing security features and compliance.",
       "items": [
         {
-          "title": "Role-based access",
-          "body": "Control who can see and change key records."
+          "title": "Security Feature 1",
+          "body": "Security feature 1 description text."
         },
         {
-          "title": "Audit-ready records",
-          "body": "Keep clear history for operational and compliance reviews."
+          "title": "Security Feature 2",
+          "body": "Security feature 2 description text."
         },
         {
-          "title": "Data export and retention",
-          "body": "Maintain records in the format your team requires."
+          "title": "Security Feature 3",
+          "body": "Security feature 3 description text."
         }
       ]
     },
     "metrics": {
-      "heading": "Platform in active operation",
-      "subtitle": "Fahrly connects dispatch, drivers, and vehicles in a single system. Live data from integrated platforms enables continuous operations.",
+      "heading": "Metrics Heading",
+      "subtitle": "Metrics subtitle text describing the key metrics and statistics.",
       "metrics": [
         {
-          "value": "10,000+ active drivers",
-          "label": "managed and tracked in the system",
+          "value": "10,000+",
+          "label": "Metric 1 label",
           "description": ""
         },
         {
-          "value": "5,000+ vehicles",
-          "label": "centrally organized and assigned",
+          "value": "5,000+",
+          "label": "Metric 2 label",
           "description": ""
         },
         {
-          "value": "500+ companies",
-          "label": "using the platform in daily operations",
+          "value": "500+",
+          "label": "Metric 3 label",
           "description": ""
         }
       ]
     },
     "pricing": {
-      "heading": "Pricing",
-      "subtitle": "Solo or team — monthly or annual",
-      "singleUserLabel": "1 user",
-      "singleUserTitle": "1 user — overview",
+      "heading": "Pricing Heading",
+      "subtitle": "Pricing subtitle text describing the pricing structure.",
+      "singleUserLabel": "1 User",
+      "singleUserTitle": "1 User Overview",
       "billingToggle": {
-        "label": "Billing period",
+        "label": "Billing Period",
         "monthly": "Monthly",
-        "yearly": "Annual",
+        "yearly": "Yearly",
         "yearlyBadge": "Save 20%"
       },
       "singleUserLabels": {
         "monthly": "monthly",
-        "yearly": "annual"
+        "yearly": "yearly"
       },
       "plans": [
         {
@@ -152,54 +152,54 @@
           "title": "Core",
           "billing": {
             "monthly": {
-              "price": "€50 / month",
+              "price": "€50 / Month",
               "detail": "Team · monthly billing"
             },
             "yearly": {
-              "price": "€40 / month",
-              "subPrice": "(€480 / year)",
-              "detail": "Team · annual billing"
+              "price": "€40 / Month",
+              "subPrice": "(€480 / Year)",
+              "detail": "Team · yearly billing"
             }
           },
-          "body": "Daily operations and dispatch",
+          "body": "Core plan description",
           "features": [
-            "Dispatch and routing",
-            "Team communication",
-            "Basic reporting",
-            "Email support"
+            "Feature 1",
+            "Feature 2",
+            "Feature 3",
+            "Feature 4"
           ],
           "singleUser": {
-            "monthly": "€30 / month",
-            "yearly": "€288 / year"
+            "monthly": "€30 / Month",
+            "yearly": "€288 / Year"
           },
-          "ctaLabel": "Start Core"
+          "ctaLabel": "Mock Start Core"
         },
         {
           "id": "operations",
           "title": "Operations",
           "billing": {
             "monthly": {
-              "price": "€100 / month",
+              "price": "€100 / Month",
               "detail": "Team · monthly billing"
             },
             "yearly": {
-              "price": "€80 / month",
-              "subPrice": "(€960 / year)",
-              "detail": "Team · annual billing"
+              "price": "€80 / Month",
+              "subPrice": "(€960 / Year)",
+              "detail": "Team · yearly billing"
             }
           },
-          "body": "Operations & workforce management",
+          "body": "Operations plan description",
           "features": [
-            "Everything in Core",
-            "Scheduling and availability",
-            "Time and role management",
-            "Operational reporting"
+            "All Core features",
+            "Feature 5",
+            "Feature 6",
+            "Feature 7"
           ],
           "singleUser": {
-            "monthly": "€60 / month",
-            "yearly": "€576 / year"
+            "monthly": "€60 / Month",
+            "yearly": "€576 / Year"
           },
-          "ctaLabel": "Start Operations",
+          "ctaLabel": "Mock Start Operations",
           "isPopular": true
         },
         {
@@ -207,91 +207,116 @@
           "title": "Full Platform",
           "billing": {
             "monthly": {
-              "price": "€200 / month",
+              "price": "€200 / Month",
               "detail": "Team · monthly billing"
             },
             "yearly": {
-              "price": "€160 / month",
-              "subPrice": "(€1,920 / year)",
-              "detail": "Team · annual billing"
+              "price": "€160 / Month",
+              "subPrice": "(€1,920 / Year)",
+              "detail": "Team · yearly billing"
             }
           },
-          "body": "Full operations & compliance",
+          "body": "Full platform description",
           "features": [
-            "Everything in Operations",
-            "Fleet readiness tracking",
-            "Compliance workflows",
-            "Priority onboarding"
+            "All Operations features",
+            "Feature 8",
+            "Feature 9",
+            "Feature 10"
           ],
           "singleUser": {
-            "monthly": "€120 / month",
-            "yearly": "€1,152 / year"
+            "monthly": "€120 / Month",
+            "yearly": "€1,152 / Year"
           },
-          "ctaLabel": "Talk to sales"
+          "ctaLabel": "Mock Talk to Sales"
         }
       ]
     },
     "faq": {
-      "heading": "Frequently asked questions",
-      "subtitle": "Everything you need to know before you start",
+      "heading": "FAQ Heading",
+      "subtitle": "FAQ subtitle text describing what information is available.",
       "items": [
         {
-          "question": "Do we have to commit from day one?",
-          "answer": "No. You start with Core and only add Operations or Full Platform when it makes sense for your operation. There is no loss of data and no reimplementation when you upgrade."
+          "question": "FAQ Question 1?",
+          "answer": "FAQ Answer 1 explaining the response to the first question."
         },
         {
-          "question": "How does the trial work?",
-          "answer": "You test Fahrly with your own workflows. On request, we set up the account together with you and provide example data. No contract and no automatic renewal during the trial."
+          "question": "FAQ Question 2?",
+          "answer": "FAQ Answer 2 explaining the response to the second question."
         },
         {
-          "question": "Are there minimum terms or long-term contracts?",
-          "answer": "No. All plans are cancellable monthly. Annual plans are cheaper, but they are optional. You choose what fits your risk profile."
+          "question": "FAQ Question 3?",
+          "answer": "FAQ Answer 3 explaining the response to the third question."
         },
         {
-          "question": "How much effort is the rollout?",
-          "answer": "Core is usually ready to use within hours. Operations and Full Platform can be rolled out step by step and, if you like, with guided onboarding for dispatch and admin teams."
+          "question": "FAQ Question 4?",
+          "answer": "FAQ Answer 4 explaining the response to the fourth question."
         },
         {
-          "question": "Will Fahrly work with our existing systems?",
-          "answer": "Yes. Fahrly connects to common HR, payroll, telematics and reporting systems. If a specific integration is missing, we clarify that before you start so you can decide with full information."
+          "question": "FAQ Question 5?",
+          "answer": "FAQ Answer 5 explaining the response to the fifth question."
         },
         {
-          "question": "What happens when we grow?",
-          "answer": "You simply add users, modules or locations. Fahrly is designed for multi-depot operations, so you don’t need a new system or data migration when your fleet or team scales."
+          "question": "FAQ Question 6?",
+          "answer": "FAQ Answer 6 explaining the response to the sixth question."
         }
       ]
     },
     "testimonials": {
-      "heading": "What customers achieve with Fahrly",
-      "subtitle": "Fahrly helps dispatch, workforce, and fleet teams structure their day-to-day operations — less coordination, fewer errors, and more predictable execution.",
+      "heading": "Testimonials Heading",
+      "subtitle": "Testimonials subtitle text describing customer success stories.",
+      "usedModulesLabel": "Used modules",
+      "googleReviews": {
+        "url": "https://share.google/jnQQp0UIEti8scgY7",
+        "text": "Google Reviews · 5.0 / 5.0",
+        "stars": "★★★★★",
+        "ariaLabel": "Google Reviews: 5 out of 5 stars"
+      },
+      "navigation": {
+        "previous": "Previous testimonial",
+        "next": "Next testimonial"
+      },
       "labels": {
         "customer": "Customer",
         "outcome": "Outcome",
-        "description": "How it works"
+        "description": "Description"
       },
       "testimonials": [
         {
-          "customer": "MK25 GmbH · Shadea Kald, Managing Director",
-          "outcome": "€150 saved per day",
-          "description": "MK25 plans all trips centrally in Fahrly. Dispatch works without WhatsApp chats or Excel lists and saves around 3 hours of manual coordination each day."
+          "customer": "Mock Company 1 · Mock Person Name, Mock Title",
+          "outcome": "Mock Outcome 1",
+          "description": "Mock testimonial description 1 explaining the customer experience and results.",
+          "outcomes": [
+            { "value": "Mock Value 1", "label": "Mock Label 1" },
+            { "value": "Mock Value 2", "label": "Mock Label 2" }
+          ],
+          "modules": ["Mock Module 1"]
         },
         {
-          "customer": "AC Empire GmbH · Alper Coskun, Managing Director",
-          "outcome": "€2,000+ saved per year",
-          "description": "The automatic payroll calculator cuts manual effort in payroll processing. AC Empire saves around 2 hours per week and avoids payroll errors."
+          "customer": "Mock Company 2 · Mock Person Name, Mock Title",
+          "outcome": "Mock Outcome 2",
+          "description": "Mock testimonial description 2 explaining the customer experience and results.",
+          "outcomes": [
+            { "value": "Mock Value 3", "label": "Mock Label 3" },
+            { "value": "Mock Value 4", "label": "Mock Label 4" }
+          ],
+          "modules": ["Mock Module 2", "Mock Module 3"]
         },
         {
-          "customer": "Atash GmbH · Managing Director",
-          "outcome": "30% fewer unplanned repairs",
-          "description": "Automated maintenance reminders help Atash identify service needs early. Unplanned repairs drop by 30% and monthly costs fall by more than €500."
+          "customer": "Mock Company 3 · Mock Person Name, Mock Title",
+          "outcome": "Mock Outcome 3",
+          "description": "Mock testimonial description 3 explaining the customer experience and results.",
+          "outcomes": [
+            { "value": "Mock Value 5", "label": "Mock Label 5" },
+            { "value": "Mock Value 6", "label": "Mock Label 6" }
+          ],
+          "modules": ["Mock Module 4", "Mock Module 5", "Mock Module 6"]
         }
       ]
     },
     "finalCta": {
-      "heading": "Ready to get started with Fahrly?",
-      "subtitle": "Start with Core and expand the platform as needed — or talk to us about your requirements.",
-      "ctaLabel": "Test Fahrly"
+      "heading": "Final CTA Heading",
+      "subtitle": "Final CTA subtitle text encouraging the user to take action.",
+      "ctaLabel": "Mock Get Started"
     }
   }
 }
-

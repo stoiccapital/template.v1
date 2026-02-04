@@ -5,8 +5,7 @@ import { SplitGrid } from '../components/layouts/SplitGrid';
 import { FeatureCard } from '../components/ui/FeatureCard';
 import { Icon } from '../components/ui/Icon';
 import { CalendarIcon, SettingsIcon, ChartIcon } from '../components/icons';
-import { ModulesConnectionsMock } from '../components/ui/mocks';
-import { spacing, typography, globalBackground, ColorTheme } from '../config/design-system';
+import { spacing, typography, globalBackground, components, ColorTheme } from '../config/design-system';
 
 export type ValuePropsProps = {
   copy: SectionValuePropsCopy;
@@ -83,8 +82,10 @@ export function ValueProps({ copy, theme }: ValuePropsProps) {
               </div>
             )}
           </div>
-          <div className="flex justify-center">
-            <ModulesConnectionsMock />
+          <div className="flex justify-center lg:justify-end">
+            <div className={`w-full ${components.media.maxWidth.xl} ${components.media.aspectRatios['16:9']} ${components.radius.media} border border-border-subtle bg-bg-neutral flex items-center justify-center`}>
+              <div className="text-text-muted text-sm">Image</div>
+            </div>
           </div>
         </SplitGrid>
       </CenteredLayout>

@@ -53,7 +53,7 @@ export function Pricing({ copy, theme }: PricingProps) {
   return (
     <section id="pricing" data-section-id="pricing" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>
       <CenteredLayout>
-        <div className={`${spacing.block.y.lg}`}>
+        <div className={`${typography.sectionHeader} ${spacing.block.y.lg}`}>
           <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
             {copy.heading}
           </h2>
@@ -108,7 +108,7 @@ export function Pricing({ copy, theme }: PricingProps) {
             </div>
           </div>
         )}
-        <div className={`grid grid-cols-1 md:grid-cols-${plans.length === 2 ? '2' : '3'} ${spacing.grid.x.md} ${spacing.grid.y.md}`}>
+        <div className={`grid grid-cols-1 ${plans.length === 2 ? 'md:grid-cols-2' : 'md:grid-cols-3'} ${spacing.grid.x.md} ${spacing.grid.y.md}`}>
           {pricingCards}
         </div>
         {copy.footerNote && (

@@ -19,17 +19,19 @@ export function Integrations({ copy, theme }: IntegrationsProps) {
   return (
     <section id="integrations" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>
       <CenteredLayout>
-        {copy.eyebrow && (
-          <div className={`${typography.label} text-text-muted ${spacing.block.y.sm}`}>
-            {copy.eyebrow}
-          </div>
-        )}
-        <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
-          {copy.heading}
-        </h2>
-        <p className={`${typography.body} text-text-secondary ${spacing.block.y.md}`}>
-          {copy.subtitle}
-        </p>
+        <div className={typography.sectionHeader}>
+          {copy.eyebrow && (
+            <div className={`${typography.label} text-text-muted ${spacing.block.y.sm}`}>
+              {copy.eyebrow}
+            </div>
+          )}
+          <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
+            {copy.heading}
+          </h2>
+          <p className={`${typography.body} text-text-secondary ${spacing.block.y.md}`}>
+            {copy.subtitle}
+          </p>
+        </div>
         <div className={`flex flex-wrap items-center ${spacing.grid.x.md} ${spacing.grid.y.md}`}>
           {copy.integrations.map((integration, index) => (
             <div key={index} aria-label={integration.name}>

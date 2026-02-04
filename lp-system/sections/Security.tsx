@@ -65,12 +65,14 @@ export function Security({ copy, theme }: SecurityProps) {
   return (
     <section id="security" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>
       <CenteredLayout>
-        <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
-          {copy.heading}
-        </h2>
-        <p className={`${typography.body} text-text-secondary ${spacing.block.y.md}`}>
-          {copy.subtitle}
-        </p>
+        <div className={typography.sectionHeader}>
+          <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
+            {copy.heading}
+          </h2>
+          <p className={`${typography.body} text-text-secondary ${spacing.block.y.md}`}>
+            {copy.subtitle}
+          </p>
+        </div>
         <div className={`grid grid-cols-1 md:grid-cols-3 ${spacing.grid.x.md} ${spacing.grid.y.md}`}>
           {securityItems}
         </div>

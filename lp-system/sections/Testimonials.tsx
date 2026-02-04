@@ -22,62 +22,22 @@ export type TestimonialsProps = {
 export function Testimonials({ copy, theme }: TestimonialsProps) {
   const testimonials = copy.testimonials && copy.testimonials.length > 0
     ? copy.testimonials
-    : [
-        { customer: 'Customer', outcome: 'Outcome', description: 'Short description of impact.' },
-        { customer: 'Client', outcome: 'Outcome', description: 'Short description of impact.' },
-        { customer: 'Partner', outcome: 'Outcome', description: 'Short description of impact.' },
-      ];
+    : [];
   const [activeIndex, setActiveIndex] = React.useState(0);
   const themeColors = colors[theme];
   const isDark = theme === 'dark';
   const cardBg = isDark ? colors.dark.surface.default : themeColors.surface.default;
   const cardBorder = isDark ? colors.dark.border.subtle : themeColors.border.subtle;
-  const isGerman = /kunden|unterstützt|erreichen/i.test(`${copy.heading} ${copy.subtitle ?? ''}`);
 
-  const structuredTestimonials = testimonials.slice(0, 3).map((testimonial, index) => {
+  const structuredTestimonials = testimonials.slice(0, 3).map((testimonial) => {
     const [company, person] = testimonial.customer.split(' · ').map((item) => item.trim());
-    const outcomesByIndex = [
-      isGerman
-        ? [
-            { value: '150 €', label: 'Ersparnis pro Tag' },
-            { value: '3 Std.', label: 'Zeitersparnis pro Tag' },
-          ]
-        : [
-            { value: '€150', label: 'saved per day' },
-            { value: '3 hours', label: 'saved per day' },
-          ],
-      isGerman
-        ? [
-            { value: '2.000 €+', label: 'Ersparnis pro Jahr' },
-            { value: '2 Std.', label: 'pro Woche' },
-          ]
-        : [
-            { value: '€2,000+', label: 'saved per year' },
-            { value: '2 hours', label: 'per week' },
-          ],
-      isGerman
-        ? [
-            { value: '30 %', label: 'weniger ungeplante Reparaturen' },
-            { value: '500 €+', label: 'Ersparnis pro Monat' },
-          ]
-        : [
-            { value: '30%', label: 'fewer unplanned repairs' },
-            { value: '€500+', label: 'saved per month' },
-          ],
-    ];
-    const modulesByIndex = [
-      ['Fahrly Go'],
-      ['Fahrly Go','Human Resource'],
-      ['Fahrly Go','Fleet Management', 'Compliance'],
-
-    ];
 
     return {
       company: company || testimonial.customer,
       person: person || '',
-      outcomes: outcomesByIndex[index] ?? [],
+      outcomes: testimonial.outcomes ?? [],
       description: testimonial.description,
-      modules: modulesByIndex[index] ?? [],
+      modules: testimonial.modules ?? [],
     };
   });
   const totalSlides = structuredTestimonials.length;
@@ -92,43 +52,45 @@ export function Testimonials({ copy, theme }: TestimonialsProps) {
     <section id="testimonials" data-section-id="testimonials" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>
       <CenteredLayout>
         <div className={spacing.block.y.md}>
-          <div className="w-full md:w-1/2">
+          <div className={typography.sectionHeader}>
             <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
               {copy.heading}
             </h2>
-            <a
-              href="https://share.google/jnQQp0UIEti8scgY7"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Google Reviews: 5 out of 5 stars"
-              className={`${typography.label} text-text-muted ${spacing.block.y.sm} inline-flex items-center gap-2`}
-            >
-              <svg
-                width="18"
-                height="18"
-                viewBox="0 0 48 48"
-                aria-hidden="true"
-                focusable="false"
+            {copy.googleReviews && (
+              <a
+                href={copy.googleReviews.url || '#'}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={copy.googleReviews.ariaLabel || 'Google Reviews'}
+                className={`${typography.label} text-text-muted ${spacing.block.y.sm} inline-flex items-center gap-2`}
               >
-                <path fill="#EA4335" d="M24 9.5c3.54 0 6.02 1.53 7.4 2.8l5.4-5.4C33.4 3.6 29.1 1.5 24 1.5 14.6 1.5 6.4 7 2.7 14.9l6.5 5c1.6-4.8 6-10.4 14.8-10.4z"/>
-                <path fill="#4285F4" d="M46.5 24.5c0-1.6-.14-2.7-.44-3.9H24v7.3h12.8c-.26 2-1.66 5-4.8 7.1l6.2 4.8c3.6-3.3 8.3-8.1 8.3-15.3z"/>
-                <path fill="#FBBC05" d="M9.2 28.6a15 15 0 0 1 0-9.2l-6.5-5a23.6 23.6 0 0 0 0 19.2l6.5-5z"/>
-                <path fill="#34A853" d="M24 46.5c6.6 0 12.2-2.2 16.3-6l-6.2-4.8c-1.7 1.2-4 2.1-10.1 2.1-8.8 0-13.2-5.6-14.8-10.4l-6.5 5C6.4 41 14.6 46.5 24 46.5z"/>
-              </svg>
-              <span>Google Reviews · 5.0 / 5.0</span>
-              <span className="text-[#F4B400]">★★★★★</span>
-            </a>
+                <svg
+                  width="18"
+                  height="18"
+                  viewBox="0 0 48 48"
+                  aria-hidden="true"
+                  focusable="false"
+                >
+                  <path fill="#EA4335" d="M24 9.5c3.54 0 6.02 1.53 7.4 2.8l5.4-5.4C33.4 3.6 29.1 1.5 24 1.5 14.6 1.5 6.4 7 2.7 14.9l6.5 5c1.6-4.8 6-10.4 14.8-10.4z"/>
+                  <path fill="#4285F4" d="M46.5 24.5c0-1.6-.14-2.7-.44-3.9H24v7.3h12.8c-.26 2-1.66 5-4.8 7.1l6.2 4.8c3.6-3.3 8.3-8.1 8.3-15.3z"/>
+                  <path fill="#FBBC05" d="M9.2 28.6a15 15 0 0 1 0-9.2l-6.5-5a23.6 23.6 0 0 0 0 19.2l6.5-5z"/>
+                  <path fill="#34A853" d="M24 46.5c6.6 0 12.2-2.2 16.3-6l-6.2-4.8c-1.7 1.2-4 2.1-10.1 2.1-8.8 0-13.2-5.6-14.8-10.4l-6.5 5C6.4 41 14.6 46.5 24 46.5z"/>
+                </svg>
+                {copy.googleReviews.text && <span>{copy.googleReviews.text}</span>}
+                {copy.googleReviews.stars && <span className="text-[#F4B400]">{copy.googleReviews.stars}</span>}
+              </a>
+            )}
           </div>
           <div className={`flex flex-col gap-4 md:flex-row md:items-center md:justify-between ${spacing.block.y.md}`}>
             {copy.subtitle && (
-              <p className={`${typography.body} text-text-secondary md:w-1/2`}>
+              <p className={`${typography.body} text-text-secondary ${typography.sectionHeader}`}>
                 {copy.subtitle}
               </p>
             )}
-            <div className="flex items-center justify-start md:w-1/2 md:justify-end">
+            <div className="flex items-center justify-start">
               <div className={`flex ${spacing.gap.sm}`}>
                 <IconNavButton
-                  ariaLabel="Previous testimonial"
+                  ariaLabel={copy.navigation?.previous || 'Previous testimonial'}
                   onClick={() => setActiveIndex((prev) => Math.max(0, prev - 1))}
                   disabled={isPrevDisabled}
                   className="h-8 w-8 p-0"
@@ -149,7 +111,7 @@ export function Testimonials({ copy, theme }: TestimonialsProps) {
                   </svg>
                 </IconNavButton>
                 <IconNavButton
-                  ariaLabel="Next testimonial"
+                  ariaLabel={copy.navigation?.next || 'Next testimonial'}
                   onClick={() => setActiveIndex((prev) => Math.min(totalSlides - 1, prev + 1))}
                   disabled={isNextDisabled}
                   className="h-8 w-8 p-0"
@@ -191,7 +153,7 @@ export function Testimonials({ copy, theme }: TestimonialsProps) {
                     {testimonial.modules && testimonial.modules.length > 0 && (
                       <div className="flex flex-col">
                         <span className={`${typography.label} text-text-muted`}>
-                          {isGerman ? 'Genutzte Module' : 'Used modules'}
+                          {copy.usedModulesLabel}
                         </span>
                         <ul className={`${typography.label} text-text-secondary list-none pl-0`}>
                           {testimonial.modules.map((moduleName) => (

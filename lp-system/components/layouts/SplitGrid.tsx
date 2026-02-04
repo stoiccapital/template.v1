@@ -16,7 +16,7 @@ export function SplitGrid({ children, reverse = false }: SplitGridProps) {
   const [textContent, mediaContent] = children;
   
   return (
-    <div className={`grid grid-cols-1 lg:grid-cols-2 ${spacing.grid.x.md} items-start`}>
+    <div className={`grid grid-cols-1 lg:grid-cols-2 ${spacing.grid.x.md} items-center`}>
       <div className={reverse ? 'lg:order-2' : ''}>{textContent}</div>
       <div className={reverse ? 'lg:order-1' : ''}>{mediaContent}</div>
     </div>

@@ -92,17 +92,17 @@ export function UseCases({ copy, theme }: UseCasesProps) {
   return (
     <section id="use-cases" data-section-id="use-cases" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>
       <CenteredLayout>
-        <div className={spacing.block.y.md}>
-          <div className="w-full md:w-1/2">
+        <div>
+          <div className={typography.sectionHeader}>
             <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
               {copy.heading}
             </h2>
           </div>
           <div className={`flex flex-col gap-4 md:flex-row md:items-center md:justify-between ${spacing.block.y.md}`}>
-            <p className={`${typography.body} text-text-secondary md:w-1/2`}>
+            <p className={`${typography.body} text-text-secondary ${typography.sectionHeader}`}>
               {copy.subtitle}
             </p>
-            <div className="flex items-center justify-start md:w-1/2 md:justify-end">
+            <div className="flex items-center justify-start">
               <div className={`flex ${spacing.gap.sm}`}>
                 <IconNavButton
                   ariaLabel="Previous use case"
@@ -149,34 +149,34 @@ export function UseCases({ copy, theme }: UseCasesProps) {
               </div>
             </div>
           </div>
-        </div>
-        <div className="overflow-hidden">
-          <div
-            className="flex transition-transform duration-500 ease-in-out md:-mx-4"
-            style={{ transform: `translateX(-${(startIndex * 100) / visibleCount}%)` }}
-          >
-            {items.map((item, index) => (
-              <div
-                key={index}
-                className="w-full shrink-0 md:w-1/2 md:px-4"
-              >
+          <div className="overflow-hidden">
+            <div
+              className="flex transition-transform duration-500 ease-in-out md:-mx-4"
+              style={{ transform: `translateX(-${(startIndex * 100) / visibleCount}%)` }}
+            >
+              {items.map((item, index) => (
                 <div
-                  className={`
-                    ${cardBg}
-                    ${cardBorder}
-                    border
-                    ${components.card.base}
-                    ${spacing.card.padding.md}
-                    ${components.shadow.surface1}
-                    ${components.transition.default}
-                    hover:shadow-card-hover
-                    h-full flex flex-col
-                  `}
+                  key={index}
+                  className="w-full shrink-0 md:w-1/2 md:px-4"
                 >
-                  {renderUseCaseItem(item)}
+                  <div
+                    className={`
+                      ${cardBg}
+                      ${cardBorder}
+                      border
+                      ${components.card.base}
+                      ${spacing.card.padding.md}
+                      ${components.shadow.surface1}
+                      ${components.transition.default}
+                      hover:shadow-card-hover
+                      h-full flex flex-col
+                    `}
+                  >
+                    {renderUseCaseItem(item)}
+                  </div>
                 </div>
-              </div>
-            ))}
+              ))}
+            </div>
           </div>
         </div>
       </CenteredLayout>

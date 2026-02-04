@@ -1,10 +1,9 @@
 import React from 'react';
 import type { SectionDeepDiveCopy } from '../config/types';
+import { CenteredLayout } from '../components/layouts/CenteredLayout';
 import { SplitGrid } from '../components/layouts/SplitGrid';
-import { SingleColumn } from '../components/layouts/SingleColumn';
 import { StepItem } from '../components/ui/StepItem';
-import { DeepDiveMock } from '../components/ui/mocks/deepdive/DeepdiveMock';
-import { spacing, typography, maxTextWidth, globalBackground, ColorTheme } from '../config/design-system';
+import { spacing, typography, globalBackground, components, ColorTheme } from '../config/design-system';
 
 export type DeepDiveProps = {
   copy: SectionDeepDiveCopy;
@@ -20,7 +19,7 @@ export type DeepDiveProps = {
 export function DeepDive({ copy, theme }: DeepDiveProps) {
   return (
     <section id="deep-dive" data-section-id="deep-dive" className={`${spacing.section.y.xl} ${globalBackground.neutral.darkest}`}>
-      <SingleColumn>
+      <CenteredLayout>
         <SplitGrid>
           <div className="text-left">
             {copy.eyebrow && (
@@ -31,7 +30,7 @@ export function DeepDive({ copy, theme }: DeepDiveProps) {
             <h2 className={`${typography.h2} text-text-primary ${spacing.block.y.md}`}>
               {copy.heading}
             </h2>
-            <p className={`${typography.body} text-text-secondary ${maxTextWidth} ${spacing.block.y.lg}`}>
+            <p className={`${typography.body} text-text-secondary ${spacing.block.y.lg}`}>
               {copy.subtitle}
             </p>
             {copy.steps.map((step, index) => (
@@ -45,12 +44,12 @@ export function DeepDive({ copy, theme }: DeepDiveProps) {
             ))}
           </div>
           <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-xl lg:max-w-2xl">
-              <DeepDiveMock />
+            <div className={`w-full ${components.media.maxWidth.xl} ${components.media.aspectRatios['16:9']} ${components.radius.media} border border-border-subtle bg-bg-neutral flex items-center justify-center`}>
+              <div className="text-text-muted text-sm">Image</div>
             </div>
           </div>
         </SplitGrid>
-      </SingleColumn>
+      </CenteredLayout>
     </section>
   );
 }
