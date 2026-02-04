@@ -1,0 +1,22 @@
+{
+  "title": "Muster Datenschutzerklärung",
+  "content": {
+    "sections": [
+      {
+        "heading": "Muster Abschnitt 1",
+        "paragraphs": [
+          "Muster Absatz 1 für Datenschutz-Seite.",
+          "Muster Absatz 2 für Datenschutz-Seite."
+        ]
+      },
+      {
+        "heading": "Muster Abschnitt 2",
+        "paragraphs": [
+          "Muster Absatz 3 für Datenschutz-Seite.",
+          "Muster Absatz 4 für Datenschutz-Seite."
+        ]
+      }
+    ]
+  }
+}
+

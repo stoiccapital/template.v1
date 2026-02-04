@@ -291,16 +291,16 @@ export const components = {
   button: {
     // White, slim CTA buttons
     primary: {
-      base: 'px-5 py-2 rounded-xl font-medium transition-all duration-150 ease-out focus:outline-none focus:ring-2 focus:ring-ring-focus focus:ring-offset-2 focus:ring-offset-ring-focus',
-      // Slim vertical padding (py-2), horizontal padding (px-5)
+      base: 'px-5 py-1.5 rounded-3xl font-medium transition-all duration-150 ease-out focus:outline-none focus:ring-2 focus:ring-ring-focus focus:ring-offset-2 focus:ring-offset-ring-focus',
+      // Slim vertical padding (py-1.5), horizontal padding (px-5)
       // Rounded-full for pill shape
       // transition-all includes shadow transitions for hover lift effect
     },
     secondary: {
-      base: 'px-5 py-2 rounded-xl font-medium transition-colors duration-150 ease-out border focus:outline-none focus:ring-2 focus:ring-ring-focus focus:ring-offset-2 focus:ring-offset-ring-focus',
+      base: 'px-5 py-1.5 rounded-3xl font-medium transition-colors duration-150 ease-out border focus:outline-none focus:ring-2 focus:ring-ring-focus focus:ring-offset-2 focus:ring-offset-ring-focus',
       // Ghost variant with border
     },
-    radius: 'rounded-xl', // Button radius token (matches media radius)
+    radius: 'rounded-3xl', // Button radius token (matches media radius)
   },
   // Surface radius token (single radius for all surfaces)
   surface: {
@@ -308,7 +308,7 @@ export const components = {
   },
   radius: {
     card: 'rounded-xl',
-    button: 'rounded-xl',
+    button: 'rounded-3xl',
     media: 'rounded-xl',
   },
   card: {

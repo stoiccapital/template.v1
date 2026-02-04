@@ -5,7 +5,7 @@ import { MediaContainer } from './MediaContainer';
 
 export type StepItemProps = {
   theme: ColorTheme;
-  stepLabel: string;
+  stepLabel?: string;
   title: string;
   body: string;
   ctaLabel?: string;
@@ -35,9 +35,11 @@ export function StepItem({
 
   return (
     <div className={spacing.block.y.xl}>
-      <div className={`${typography.label} ${isDark ? colors.dark.accent.primary : themeColors.accent.primary} ${spacing.block.y.sm}`}>
-        {stepLabel}
-      </div>
+      {stepLabel && (
+        <div className={`${typography.label} ${isDark ? colors.dark.accent.primary : themeColors.accent.primary} ${spacing.block.y.sm}`}>
+          {stepLabel}
+        </div>
+      )}
       <h3 className={`${typography.h3} text-text-primary ${spacing.block.y.md}`}>
         {title}
       </h3>

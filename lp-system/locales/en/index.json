@@ -1,0 +1,356 @@
+{
+  "navbar": {
+    "brand": "Mock Brand",
+    "links": {
+      "features": "Mock Features",
+      "pricing": "Mock Pricing",
+      "useCases": "Mock Use Cases",
+      "faq": "Mock FAQ"
+    },
+    "cta": "Mock CTA",
+    "ariaLabels": {
+      "goToHomepage": "Mock go to homepage",
+      "switchToEnglish": "Mock switch to English",
+      "switchToGerman": "Mock switch to German",
+      "openMenu": "Mock open main menu",
+      "closeMenu": "Mock close main menu"
+    }
+  },
+  "hero": {
+    "eyebrow": "Eyebrow Text",
+    "title": "Main Heading Text",
+    "subtitle": "Subtitle text describing the main value proposition and key benefits.",
+    "primaryCtaLabel": "Mock Primary CTA",
+    "secondaryCtaLabel": "Mock Secondary CTA"
+  },
+  "socialProof": {
+    "label": "Mock Trusted by many customers",
+    "logos": [
+      { "alt": "Mock Company 1" },
+      { "alt": "Mock Company 2" },
+      { "alt": "Mock Company 3" },
+      { "alt": "Mock Company 4" },
+      { "alt": "Mock Company 5" },
+      { "alt": "Mock Company 6" },
+      { "alt": "Mock Company 7" },
+      { "alt": "Mock Company 8" }
+    ]
+  },
+  "valueProps": {
+    "eyebrow": "Value Props Eyebrow",
+    "heading": "Value Props Heading",
+    "subtitle": "Value props subtitle text explaining the key benefits and value proposition of the product or service.",
+    "items": []
+  },
+  "features": {
+    "eyebrow": "",
+    "heading": "",
+    "subtitle": "",
+    "items": [
+      {
+        "eyebrow": "Feature 1 Eyebrow",
+        "title": "Feature 1 Title",
+        "body": "Feature 1 description text explaining the key functionality and benefits."
+      },
+      {
+        "eyebrow": "Feature 2 Eyebrow",
+        "title": "Feature 2 Title",
+        "body": "Feature 2 description text explaining the key functionality and benefits."
+      },
+      {
+        "eyebrow": "Feature 3 Eyebrow",
+        "title": "Feature 3 Title",
+        "body": "Feature 3 description text explaining the key functionality and benefits."
+      },
+      {
+        "eyebrow": "Feature 4 Eyebrow",
+        "title": "Feature 4 Title",
+        "body": "Feature 4 description text explaining the key functionality and benefits."
+      }
+    ]
+  },
+  "deepDive": {
+    "eyebrow": "Deep Dive Eyebrow",
+    "heading": "Deep Dive Heading",
+    "subtitle": "Deep dive subtitle text explaining the process or methodology.",
+    "steps": [
+      {
+        "title": "Step 1 Title",
+        "body": "Step 1 description text explaining what happens in this step."
+      },
+      {
+        "title": "Step 2 Title",
+        "body": "Step 2 description text explaining what happens in this step."
+      },
+      {
+        "title": "Step 3 Title",
+        "body": "Step 3 description text explaining what happens in this step."
+      }
+    ]
+  },
+  "useCases": {
+    "heading": "Use Cases Heading",
+    "subtitle": "Use cases subtitle text describing the various use cases and applications.",
+    "items": [
+      {
+        "title": "Use Case 1 Title",
+        "body": "Use case 1 description text explaining how this use case works and its benefits."
+      },
+      {
+        "title": "Use Case 2 Title",
+        "body": "Use case 2 description text explaining how this use case works and its benefits."
+      },
+      {
+        "title": "Use Case 3 Title",
+        "body": "Use case 3 description text explaining how this use case works and its benefits."
+      },
+      {
+        "title": "Use Case 4 Title",
+        "body": "Use case 4 description text explaining how this use case works and its benefits."
+      }
+    ]
+  },
+  "integrations": {
+    "eyebrow": "Integrations Eyebrow",
+    "heading": "Integrations Heading",
+    "subtitle": "Integrations subtitle text describing the available integrations.",
+    "integrations": [
+      { "name": "Integration 1" }
+    ]
+  },
+  "security": {
+    "heading": "Security Heading",
+    "subtitle": "Security subtitle text describing security features and compliance.",
+    "items": [
+      {
+        "title": "Security Feature 1",
+        "body": "Security feature 1 description text."
+      },
+      {
+        "title": "Security Feature 2",
+        "body": "Security feature 2 description text."
+      },
+      {
+        "title": "Security Feature 3",
+        "body": "Security feature 3 description text."
+      }
+    ]
+  },
+  "metrics": {
+    "heading": "Metrics Heading",
+    "subtitle": "Metrics subtitle text describing the key metrics and statistics.",
+    "metrics": [
+      {
+        "value": "10,000+",
+        "label": "Metric 1 label",
+        "description": ""
+      },
+      {
+        "value": "5,000+",
+        "label": "Metric 2 label",
+        "description": ""
+      },
+      {
+        "value": "500+",
+        "label": "Metric 3 label",
+        "description": ""
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Pricing Heading",
+    "subtitle": "Pricing subtitle text describing the pricing structure.",
+    "singleUserLabel": "1 User",
+    "singleUserTitle": "1 User Overview",
+    "billingToggle": {
+      "label": "Billing Period",
+      "monthly": "Monthly",
+      "yearly": "Yearly",
+      "yearlyBadge": "Save 20%"
+    },
+    "singleUserLabels": {
+      "monthly": "monthly",
+      "yearly": "yearly"
+    },
+    "plans": [
+      {
+        "id": "core",
+        "title": "Core",
+        "billing": {
+          "monthly": {
+            "price": "€50 / Month",
+            "detail": "Team · monthly billing"
+          },
+          "yearly": {
+            "price": "€40 / Month",
+            "subPrice": "(€480 / Year)",
+            "detail": "Team · yearly billing"
+          }
+        },
+        "body": "Core plan description",
+        "features": [
+          "Feature 1",
+          "Feature 2",
+          "Feature 3",
+          "Feature 4"
+        ],
+        "singleUser": {
+          "monthly": "€30 / Month",
+          "yearly": "€288 / Year"
+        },
+        "ctaLabel": "Mock Start Core"
+      },
+      {
+        "id": "operations",
+        "title": "Operations",
+        "billing": {
+          "monthly": {
+            "price": "€100 / Month",
+            "detail": "Team · monthly billing"
+          },
+          "yearly": {
+            "price": "€80 / Month",
+            "subPrice": "(€960 / Year)",
+            "detail": "Team · yearly billing"
+          }
+        },
+        "body": "Operations plan description",
+        "features": [
+          "All Core features",
+          "Feature 5",
+          "Feature 6",
+          "Feature 7"
+        ],
+        "singleUser": {
+          "monthly": "€60 / Month",
+          "yearly": "€576 / Year"
+        },
+        "ctaLabel": "Mock Start Operations",
+        "isPopular": true
+      },
+      {
+        "id": "full",
+        "title": "Full Platform",
+        "billing": {
+          "monthly": {
+            "price": "€200 / Month",
+            "detail": "Team · monthly billing"
+          },
+          "yearly": {
+            "price": "€160 / Month",
+            "subPrice": "(€1,920 / Year)",
+            "detail": "Team · yearly billing"
+          }
+        },
+        "body": "Full platform description",
+        "features": [
+          "All Operations features",
+          "Feature 8",
+          "Feature 9",
+          "Feature 10"
+        ],
+        "singleUser": {
+          "monthly": "€120 / Month",
+          "yearly": "€1,152 / Year"
+        },
+        "ctaLabel": "Mock Talk to Sales"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "FAQ Heading",
+    "subtitle": "FAQ subtitle text describing what information is available.",
+    "items": [
+      {
+        "question": "FAQ Question 1?",
+        "answer": "FAQ Answer 1 explaining the response to the first question."
+      },
+      {
+        "question": "FAQ Question 2?",
+        "answer": "FAQ Answer 2 explaining the response to the second question."
+      },
+      {
+        "question": "FAQ Question 3?",
+        "answer": "FAQ Answer 3 explaining the response to the third question."
+      },
+      {
+        "question": "FAQ Question 4?",
+        "answer": "FAQ Answer 4 explaining the response to the fourth question."
+      },
+      {
+        "question": "FAQ Question 5?",
+        "answer": "FAQ Answer 5 explaining the response to the fifth question."
+      },
+      {
+        "question": "FAQ Question 6?",
+        "answer": "FAQ Answer 6 explaining the response to the sixth question."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Testimonials Heading",
+    "subtitle": "Testimonials subtitle text describing customer success stories.",
+    "usedModulesLabel": "Used modules",
+    "googleReviews": {
+      "url": "https://share.google/jnQQp0UIEti8scgY7",
+      "text": "Google Reviews · 5.0 / 5.0",
+      "stars": "★★★★★",
+      "ariaLabel": "Google Reviews: 5 out of 5 stars"
+    },
+    "navigation": {
+      "previous": "Previous testimonial",
+      "next": "Next testimonial"
+    },
+    "labels": {
+      "customer": "Customer",
+      "outcome": "Outcome",
+      "description": "Description"
+    },
+    "testimonials": [
+      {
+        "customer": "Mock Company 1 · Mock Person Name, Mock Title",
+        "outcome": "Mock Outcome 1",
+        "description": "Mock testimonial description 1 explaining the customer experience and results.",
+        "outcomes": [
+          { "value": "Mock Value 1", "label": "Mock Label 1" },
+          { "value": "Mock Value 2", "label": "Mock Label 2" }
+        ],
+        "modules": ["Mock Module 1"]
+      },
+      {
+        "customer": "Mock Company 2 · Mock Person Name, Mock Title",
+        "outcome": "Mock Outcome 2",
+        "description": "Mock testimonial description 2 explaining the customer experience and results.",
+        "outcomes": [
+          { "value": "Mock Value 3", "label": "Mock Label 3" },
+          { "value": "Mock Value 4", "label": "Mock Label 4" }
+        ],
+        "modules": ["Mock Module 2", "Mock Module 3"]
+      },
+      {
+        "customer": "Mock Company 3 · Mock Person Name, Mock Title",
+        "outcome": "Mock Outcome 3",
+        "description": "Mock testimonial description 3 explaining the customer experience and results.",
+        "outcomes": [
+          { "value": "Mock Value 5", "label": "Mock Label 5" },
+          { "value": "Mock Value 6", "label": "Mock Label 6" }
+        ],
+        "modules": ["Mock Module 4", "Mock Module 5", "Mock Module 6"]
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Final CTA Heading",
+    "subtitle": "Final CTA subtitle text encouraging the user to take action.",
+    "ctaLabel": "Mock Get Started"
+  },
+  "footer": {
+    "copyright": "© 2024 Mock Brand. All rights reserved.",
+    "links": {
+      "privacy": "Mock Privacy",
+      "terms": "Mock Terms",
+      "contact": "Mock Contact"
+    }
+  }
+}
+

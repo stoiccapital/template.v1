@@ -1,0 +1,356 @@
+{
+  "navbar": {
+    "brand": "Muster Marke",
+    "links": {
+      "features": "Muster Funktionen",
+      "pricing": "Muster Preise",
+      "useCases": "Muster Anwendungsfälle",
+      "faq": "Muster FAQ"
+    },
+    "cta": "Muster CTA",
+    "ariaLabels": {
+      "goToHomepage": "Zur Startseite",
+      "switchToEnglish": "Zu Englisch wechseln",
+      "switchToGerman": "Zu Deutsch wechseln",
+      "openMenu": "Hauptmenü öffnen",
+      "closeMenu": "Hauptmenü schließen"
+    }
+  },
+  "hero": {
+    "eyebrow": "Muster Eyebrow Text",
+    "title": "Muster Hauptüberschrift",
+    "subtitle": "Muster Untertitel, der das Hauptwertversprechen und die wichtigsten Vorteile beschreibt.",
+    "primaryCtaLabel": "Muster Primärer CTA",
+    "secondaryCtaLabel": "Muster Sekundärer CTA"
+  },
+  "socialProof": {
+    "label": "Muster Vertrauen von vielen Kunden",
+    "logos": [
+      { "alt": "Muster Firma 1" },
+      { "alt": "Muster Firma 2" },
+      { "alt": "Muster Firma 3" },
+      { "alt": "Muster Firma 4" },
+      { "alt": "Muster Firma 5" },
+      { "alt": "Muster Firma 6" },
+      { "alt": "Muster Firma 7" },
+      { "alt": "Muster Firma 8" }
+    ]
+  },
+  "valueProps": {
+    "eyebrow": "Muster Wertversprechen Eyebrow",
+    "heading": "Muster Wertversprechen Überschrift",
+    "subtitle": "Muster Untertitel für Wertversprechen, der die wichtigsten Vorteile und das Wertversprechen des Produkts oder der Dienstleistung erklärt.",
+    "items": []
+  },
+  "features": {
+    "eyebrow": "",
+    "heading": "",
+    "subtitle": "",
+    "items": [
+      {
+        "eyebrow": "Muster Funktion 1 Eyebrow",
+        "title": "Muster Funktion 1 Titel",
+        "body": "Muster Beschreibungstext für Funktion 1, der die wichtigsten Funktionen und Vorteile erklärt."
+      },
+      {
+        "eyebrow": "Muster Funktion 2 Eyebrow",
+        "title": "Muster Funktion 2 Titel",
+        "body": "Muster Beschreibungstext für Funktion 2, der die wichtigsten Funktionen und Vorteile erklärt."
+      },
+      {
+        "eyebrow": "Muster Funktion 3 Eyebrow",
+        "title": "Muster Funktion 3 Titel",
+        "body": "Muster Beschreibungstext für Funktion 3, der die wichtigsten Funktionen und Vorteile erklärt."
+      },
+      {
+        "eyebrow": "Muster Funktion 4 Eyebrow",
+        "title": "Muster Funktion 4 Titel",
+        "body": "Muster Beschreibungstext für Funktion 4, der die wichtigsten Funktionen und Vorteile erklärt."
+      }
+    ]
+  },
+  "deepDive": {
+    "eyebrow": "Muster Deep Dive Eyebrow",
+    "heading": "Muster Deep Dive Überschrift",
+    "subtitle": "Muster Deep Dive Untertitel, der den Prozess oder die Methodik erklärt.",
+    "steps": [
+      {
+        "title": "Muster Schritt 1 Titel",
+        "body": "Muster Beschreibungstext für Schritt 1, der erklärt, was in diesem Schritt passiert."
+      },
+      {
+        "title": "Muster Schritt 2 Titel",
+        "body": "Muster Beschreibungstext für Schritt 2, der erklärt, was in diesem Schritt passiert."
+      },
+      {
+        "title": "Muster Schritt 3 Titel",
+        "body": "Muster Beschreibungstext für Schritt 3, der erklärt, was in diesem Schritt passiert."
+      }
+    ]
+  },
+  "useCases": {
+    "heading": "Muster Anwendungsfälle Überschrift",
+    "subtitle": "Muster Untertitel für Anwendungsfälle, der die verschiedenen Anwendungsfälle und Anwendungen beschreibt.",
+    "items": [
+      {
+        "title": "Muster Anwendungsfall 1 Titel",
+        "body": "Muster Beschreibungstext für Anwendungsfall 1, der erklärt, wie dieser Anwendungsfall funktioniert und welche Vorteile er bietet."
+      },
+      {
+        "title": "Muster Anwendungsfall 2 Titel",
+        "body": "Muster Beschreibungstext für Anwendungsfall 2, der erklärt, wie dieser Anwendungsfall funktioniert und welche Vorteile er bietet."
+      },
+      {
+        "title": "Muster Anwendungsfall 3 Titel",
+        "body": "Muster Beschreibungstext für Anwendungsfall 3, der erklärt, wie dieser Anwendungsfall funktioniert und welche Vorteile er bietet."
+      },
+      {
+        "title": "Muster Anwendungsfall 4 Titel",
+        "body": "Muster Beschreibungstext für Anwendungsfall 4, der erklärt, wie dieser Anwendungsfall funktioniert und welche Vorteile er bietet."
+      }
+    ]
+  },
+  "integrations": {
+    "eyebrow": "Muster Integrationen Eyebrow",
+    "heading": "Muster Integrationen Überschrift",
+    "subtitle": "Muster Untertitel für Integrationen, der die verfügbaren Integrationen beschreibt.",
+    "integrations": [
+      { "name": "Muster Integration 1" }
+    ]
+  },
+  "security": {
+    "heading": "Muster Sicherheit Überschrift",
+    "subtitle": "Muster Untertitel für Sicherheit, der Sicherheitsfunktionen und Compliance beschreibt.",
+    "items": [
+      {
+        "title": "Muster Sicherheitsfunktion 1",
+        "body": "Muster Beschreibungstext für Sicherheitsfunktion 1."
+      },
+      {
+        "title": "Muster Sicherheitsfunktion 2",
+        "body": "Muster Beschreibungstext für Sicherheitsfunktion 2."
+      },
+      {
+        "title": "Muster Sicherheitsfunktion 3",
+        "body": "Muster Beschreibungstext für Sicherheitsfunktion 3."
+      }
+    ]
+  },
+  "metrics": {
+    "heading": "Muster Metriken Überschrift",
+    "subtitle": "Muster Untertitel für Metriken, der die wichtigsten Metriken und Statistiken beschreibt.",
+    "metrics": [
+      {
+        "value": "10.000+",
+        "label": "Muster Metrik 1 Bezeichnung",
+        "description": ""
+      },
+      {
+        "value": "5.000+",
+        "label": "Muster Metrik 2 Bezeichnung",
+        "description": ""
+      },
+      {
+        "value": "500+",
+        "label": "Muster Metrik 3 Bezeichnung",
+        "description": ""
+      }
+    ]
+  },
+  "pricing": {
+    "heading": "Muster Preise Überschrift",
+    "subtitle": "Muster Untertitel für Preise, der die Preisstruktur beschreibt.",
+    "singleUserLabel": "1 Benutzer",
+    "singleUserTitle": "1 Benutzer Übersicht",
+    "billingToggle": {
+      "label": "Abrechnungszeitraum",
+      "monthly": "Monatlich",
+      "yearly": "Jährlich",
+      "yearlyBadge": "20% sparen"
+    },
+    "singleUserLabels": {
+      "monthly": "monatlich",
+      "yearly": "jährlich"
+    },
+    "plans": [
+      {
+        "id": "core",
+        "title": "Kern",
+        "billing": {
+          "monthly": {
+            "price": "€50 / Monat",
+            "detail": "Team · monatliche Abrechnung"
+          },
+          "yearly": {
+            "price": "€40 / Monat",
+            "subPrice": "(€480 / Jahr)",
+            "detail": "Team · jährliche Abrechnung"
+          }
+        },
+        "body": "Muster Kern-Plan Beschreibung",
+        "features": [
+          "Muster Funktion 1",
+          "Muster Funktion 2",
+          "Muster Funktion 3",
+          "Muster Funktion 4"
+        ],
+        "singleUser": {
+          "monthly": "€30 / Monat",
+          "yearly": "€288 / Jahr"
+        },
+        "ctaLabel": "Muster Kern starten"
+      },
+      {
+        "id": "operations",
+        "title": "Betrieb",
+        "billing": {
+          "monthly": {
+            "price": "€100 / Monat",
+            "detail": "Team · monatliche Abrechnung"
+          },
+          "yearly": {
+            "price": "€80 / Monat",
+            "subPrice": "(€960 / Jahr)",
+            "detail": "Team · jährliche Abrechnung"
+          }
+        },
+        "body": "Muster Betriebs-Plan Beschreibung",
+        "features": [
+          "Alle Kern-Funktionen",
+          "Muster Funktion 5",
+          "Muster Funktion 6",
+          "Muster Funktion 7"
+        ],
+        "singleUser": {
+          "monthly": "€60 / Monat",
+          "yearly": "€576 / Jahr"
+        },
+        "ctaLabel": "Muster Betrieb starten",
+        "isPopular": true
+      },
+      {
+        "id": "full",
+        "title": "Vollständige Plattform",
+        "billing": {
+          "monthly": {
+            "price": "€200 / Monat",
+            "detail": "Team · monatliche Abrechnung"
+          },
+          "yearly": {
+            "price": "€160 / Monat",
+            "subPrice": "(€1.920 / Jahr)",
+            "detail": "Team · jährliche Abrechnung"
+          }
+        },
+        "body": "Muster Vollständige Plattform Beschreibung",
+        "features": [
+          "Alle Betriebs-Funktionen",
+          "Muster Funktion 8",
+          "Muster Funktion 9",
+          "Muster Funktion 10"
+        ],
+        "singleUser": {
+          "monthly": "€120 / Monat",
+          "yearly": "€1.152 / Jahr"
+        },
+        "ctaLabel": "Muster Verkauf kontaktieren"
+      }
+    ]
+  },
+  "faq": {
+    "heading": "Muster FAQ Überschrift",
+    "subtitle": "Muster FAQ Untertitel, der beschreibt, welche Informationen verfügbar sind.",
+    "items": [
+      {
+        "question": "Muster FAQ Frage 1?",
+        "answer": "Muster FAQ Antwort 1, die die Antwort auf die erste Frage erklärt."
+      },
+      {
+        "question": "Muster FAQ Frage 2?",
+        "answer": "Muster FAQ Antwort 2, die die Antwort auf die zweite Frage erklärt."
+      },
+      {
+        "question": "Muster FAQ Frage 3?",
+        "answer": "Muster FAQ Antwort 3, die die Antwort auf die dritte Frage erklärt."
+      },
+      {
+        "question": "Muster FAQ Frage 4?",
+        "answer": "Muster FAQ Antwort 4, die die Antwort auf die vierte Frage erklärt."
+      },
+      {
+        "question": "Muster FAQ Frage 5?",
+        "answer": "Muster FAQ Antwort 5, die die Antwort auf die fünfte Frage erklärt."
+      },
+      {
+        "question": "Muster FAQ Frage 6?",
+        "answer": "Muster FAQ Antwort 6, die die Antwort auf die sechste Frage erklärt."
+      }
+    ]
+  },
+  "testimonials": {
+    "heading": "Muster Testimonials Überschrift",
+    "subtitle": "Muster Testimonials Untertitel, der Kundenerfolgsgeschichten beschreibt.",
+    "usedModulesLabel": "Genutzte Module",
+    "googleReviews": {
+      "url": "https://share.google/jnQQp0UIEti8scgY7",
+      "text": "Google Bewertungen · 5.0 / 5.0",
+      "stars": "★★★★★",
+      "ariaLabel": "Google Bewertungen: 5 von 5 Sternen"
+    },
+    "navigation": {
+      "previous": "Vorheriges Testimonial",
+      "next": "Nächstes Testimonial"
+    },
+    "labels": {
+      "customer": "Kunde",
+      "outcome": "Ergebnis",
+      "description": "Beschreibung"
+    },
+    "testimonials": [
+      {
+        "customer": "Muster Firma 1 · Muster Personenname, Muster Titel",
+        "outcome": "Muster Ergebnis 1",
+        "description": "Muster Testimonial Beschreibung 1, die die Kundenerfahrung und Ergebnisse erklärt.",
+        "outcomes": [
+          { "value": "Muster Wert 1", "label": "Muster Bezeichnung 1" },
+          { "value": "Muster Wert 2", "label": "Muster Bezeichnung 2" }
+        ],
+        "modules": ["Muster Modul 1"]
+      },
+      {
+        "customer": "Muster Firma 2 · Muster Personenname, Muster Titel",
+        "outcome": "Muster Ergebnis 2",
+        "description": "Muster Testimonial Beschreibung 2, die die Kundenerfahrung und Ergebnisse erklärt.",
+        "outcomes": [
+          { "value": "Muster Wert 3", "label": "Muster Bezeichnung 3" },
+          { "value": "Muster Wert 4", "label": "Muster Bezeichnung 4" }
+        ],
+        "modules": ["Muster Modul 2", "Muster Modul 3"]
+      },
+      {
+        "customer": "Muster Firma 3 · Muster Personenname, Muster Titel",
+        "outcome": "Muster Ergebnis 3",
+        "description": "Muster Testimonial Beschreibung 3, die die Kundenerfahrung und Ergebnisse erklärt.",
+        "outcomes": [
+          { "value": "Muster Wert 5", "label": "Muster Bezeichnung 5" },
+          { "value": "Muster Wert 6", "label": "Muster Bezeichnung 6" }
+        ],
+        "modules": ["Muster Modul 4", "Muster Modul 5", "Muster Modul 6"]
+      }
+    ]
+  },
+  "finalCta": {
+    "heading": "Muster Finale CTA Überschrift",
+    "subtitle": "Muster Finale CTA Untertitel, der den Benutzer ermutigt, Maßnahmen zu ergreifen.",
+    "ctaLabel": "Muster Loslegen"
+  },
+  "footer": {
+    "copyright": "© 2024 Muster Marke. Alle Rechte vorbehalten.",
+    "links": {
+      "privacy": "Muster Datenschutz",
+      "terms": "Muster Nutzungsbedingungen",
+      "contact": "Impressum"
+    }
+  }
+}
+

@@ -1,18 +1,32 @@
-import type { PageCopyConfig } from '../config/types';
-import enData from './en.json';
-import deData from './de.json';
-
-const localeData: Record<'en' | 'de', Record<string, PageCopyConfig>> = {
-  en: enData as Record<string, PageCopyConfig>,
-  de: deData as Record<string, PageCopyConfig>,
-};
+import type { PageCopyConfig, LegalPageCopy } from '../config/types';
+import deIndexData from './de/index.json';
+import enIndexData from './en/index.json';
+import dePrivacyData from './de/privacy.json';
+import enPrivacyData from './en/privacy.json';
+import deImpressumData from './de/impressum.json';
+import enImpressumData from './en/impressum.json';
 
 export function loadPageCopy(
   locale: 'en' | 'de',
   lpId: string
 ): PageCopyConfig | null {
-  const data = localeData[locale];
-  return data[lpId] || null;
+  // For now, we only support 'example-lp' which maps to index.json
+  if (lpId !== 'example-lp') return null;
+  
+  const data = locale === 'en' ? enIndexData : deIndexData;
+  return data as PageCopyConfig;
+}
+
+export function loadLegalPageCopy(
+  locale: 'en' | 'de',
+  pageId: 'impressum' | 'privacy'
+): LegalPageCopy | null {
+  if (pageId === 'privacy') {
+    return (locale === 'en' ? enPrivacyData : dePrivacyData) as LegalPageCopy;
+  } else if (pageId === 'impressum') {
+    return (locale === 'en' ? enImpressumData : deImpressumData) as LegalPageCopy;
+  }
+  return null;
 }
 
 export type ShellMessages = {
@@ -94,7 +108,7 @@ const shellMessages: Record<'en' | 'de', ShellMessages> = {
       links: {
         privacy: 'Mock Datenschutz',
         terms: 'Mock Nutzungsbedingungen',
-        contact: 'Mock Kontakt',
+        contact: 'Impressum',
       },
     },
   },

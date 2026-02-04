@@ -1,6 +1,7 @@
 'use client';
 
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
+import { usePathname } from 'next/navigation';
 import { spacing, layout, navbar, ColorTheme } from '../config/design-system';
 import { CTAButton } from './ui/CTAButton';
 import { LocaleToggle } from './ui/LocaleToggle';
@@ -31,6 +32,8 @@ export type NavbarProps = {
 
 export function Navbar({ theme, labels, locale }: NavbarProps) {
   const [isOpen, setIsOpen] = useState(false);
+  const pathname = usePathname();
+  const isLandingPage = pathname === `/${locale}` || pathname === `/${locale}/`;
 
   // Scroll to section handler
   const scrollToSection = (sectionId: string) => {
@@ -40,19 +43,39 @@ export function Navbar({ theme, labels, locale }: NavbarProps) {
     }
   };
 
-  // Logo click handler - scroll to Hero
+  // Logo click handler - navigate to home or scroll to Hero
   const handleLogoClick = (e: React.MouseEvent<HTMLDivElement>) => {
     e.preventDefault();
-    scrollToSection('hero');
+    if (isLandingPage) {
+      scrollToSection('hero');
+    } else {
+      window.location.href = `/${locale}`;
+    }
     setIsOpen(false); // Close mobile menu if open
   };
 
   // Nav link click handlers
   const handleNavClick = (e: React.MouseEvent<HTMLAnchorElement>, sectionId: string) => {
     e.preventDefault();
-    scrollToSection(sectionId);
+    if (isLandingPage) {
+      // On landing page, just scroll to section
+      scrollToSection(sectionId);
+    } else {
+      // On other pages, navigate to landing page with hash
+      window.location.href = `/${locale}#${sectionId}`;
+    }
     setIsOpen(false); // Close mobile menu after clicking a link
   };
+
+  // Handle hash navigation after page load
+  useEffect(() => {
+    if (isLandingPage && window.location.hash) {
+      const hash = window.location.hash.substring(1);
+      setTimeout(() => {
+        scrollToSection(hash);
+      }, 100);
+    }
+  }, [isLandingPage]);
 
   // Navigation links configuration
   const navLinks = [
@@ -87,7 +110,7 @@ export function Navbar({ theme, labels, locale }: NavbarProps) {
             {navLinks.map((link) => (
               <a 
                 key={link.id}
-                href={`#${link.id}`} 
+                href={isLandingPage ? `#${link.id}` : `/${locale}#${link.id}`}
                 onClick={(e) => handleNavClick(e, link.id)}
                 className="text-text-secondary hover:text-link-hover transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring-focus focus-visible:ring-offset-2 focus-visible:ring-offset-ring-focus rounded"
               >
@@ -159,7 +182,7 @@ export function Navbar({ theme, labels, locale }: NavbarProps) {
               {navLinks.map((link) => (
                 <a
                   key={link.id}
-                  href={`#${link.id}`}
+                  href={isLandingPage ? `#${link.id}` : `/${locale}#${link.id}`}
                   onClick={(e) => handleNavClick(e, link.id)}
                   className={`text-text-secondary hover:text-link-hover transition-colors ${spacing.block.y.sm} focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-ring-focus focus-visible:ring-offset-2 focus-visible:ring-offset-ring-focus rounded`}
                 >

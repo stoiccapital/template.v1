@@ -55,7 +55,7 @@ export function LandingPageTemplate({
   return (
     <div className={`min-h-screen ${themeConfig.background} ${themeConfig.font}`}>
       {/* 1. Navbar */}
-      <Navbar theme={theme} labels={messages.navbar} locale={locale} />
+      <Navbar theme={theme} labels={copy.navbar || messages.navbar} locale={locale} />
       
       {/* Main content */}
       <main>
@@ -107,7 +107,7 @@ export function LandingPageTemplate({
       </main>
       
       {/* 13. Footer */}
-      <Footer theme={theme} labels={messages.footer} />
+      <Footer theme={theme} labels={copy.footer || messages.footer} locale={locale} />
     </div>
   );
 }

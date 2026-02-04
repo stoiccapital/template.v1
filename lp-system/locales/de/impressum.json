@@ -1,0 +1,22 @@
+{
+  "title": "Muster Impressum",
+  "content": {
+    "sections": [
+      {
+        "heading": "Muster Abschnitt 1",
+        "paragraphs": [
+          "Muster Absatz 1 für Impressum-Seite.",
+          "Muster Absatz 2 für Impressum-Seite."
+        ]
+      },
+      {
+        "heading": "Muster Abschnitt 2",
+        "paragraphs": [
+          "Muster Absatz 3 für Impressum-Seite.",
+          "Muster Absatz 4 für Impressum-Seite."
+        ]
+      }
+    ]
+  }
+}
+

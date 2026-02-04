@@ -13,9 +13,10 @@ export type FooterLabels = {
 export type FooterProps = {
   theme: 'light' | 'dark'; // Keep for API compatibility, but not used internally
   labels: FooterLabels;
+  locale?: 'en' | 'de';
 };
 
-export function Footer({ labels }: FooterProps) {
+export function Footer({ labels, locale = 'en' }: FooterProps) {
   return (
     <footer aria-label="Footer" className={`${footer.bg} border-t ${footer.borderColor} ${footer.section.padding.y}`}>
       <div className={`${layout.container.maxWidth} ${layout.container.px} mx-auto`}>
@@ -24,13 +25,10 @@ export function Footer({ labels }: FooterProps) {
             {labels.copyright}
           </div>
           <nav aria-label="Footer navigation" className={`flex items-center ${spacing.gap.md}`}>
-            <a href="#" className={`${typography.textXs} ${footer.text.muted} hover:text-link-hover transition-colors`}>
+            <a href={`/${locale}/privacy`} className={`${typography.textXs} ${footer.text.muted} hover:text-link-hover transition-colors`}>
               {labels.links.privacy}
             </a>
-            <a href="#" className={`${typography.textXs} ${footer.text.muted} hover:text-link-hover transition-colors`}>
-              {labels.links.terms}
-            </a>
-            <a href="#" className={`${typography.textXs} ${footer.text.muted} hover:text-link-hover transition-colors`}>
+            <a href={`/${locale}/impressum`} className={`${typography.textXs} ${footer.text.muted} hover:text-link-hover transition-colors`}>
               {labels.links.contact}
             </a>
           </nav>

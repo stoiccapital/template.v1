@@ -17,16 +17,7 @@ export type SocialProofProps = {
  * Internal: H2 → subtitle block.y.md, Subtitle → LogoGrid block.y.lg
  */
 export function SocialProof({ copy, theme }: SocialProofProps) {
-  const logos = [
-    { src: undefined, alt: 'AC Transfer GmbH' },
-    { src: undefined, alt: 'Muhammed GmbH' },
-    { src: undefined, alt: 'RheinTransfers GmbH' },
-    { src: undefined, alt: 'CounterTime GmbH' },
-    { src: undefined, alt: '9PM GmbH' },
-    { src: undefined, alt: 'Drosselklappe GmbH' },
-    { src: undefined, alt: 'MK28 GmbH' },
-    { src: undefined, alt: 'YourCar GmbH' },
-  ];
+  const logos = copy.logos || [];
 
   const heading = copy.label ? (
     <div className={spacing.block.y.md}>

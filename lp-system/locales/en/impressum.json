@@ -1,0 +1,22 @@
+{
+  "title": "Mock Legal Notice",
+  "content": {
+    "sections": [
+      {
+        "heading": "Mock Section 1",
+        "paragraphs": [
+          "Mock paragraph 1 for Legal Notice page.",
+          "Mock paragraph 2 for Legal Notice page."
+        ]
+      },
+      {
+        "heading": "Mock Section 2",
+        "paragraphs": [
+          "Mock paragraph 3 for Legal Notice page.",
+          "Mock paragraph 4 for Legal Notice page."
+        ]
+      }
+    ]
+  }
+}
+

@@ -30,7 +30,7 @@ export function IconNavButton({
       aria-label={ariaLabel}
       onClick={onClick}
       disabled={disabled}
-      className={`inline-flex items-center justify-center rounded-xl ${typography.textXs} transition-colors duration-150 ease-out focus:outline-none focus:ring-2 focus:ring-ring-focus focus:ring-offset-2 focus:ring-offset-ring-focus ${baseClasses} disabled:opacity-40 disabled:cursor-not-allowed disabled:text-text-secondary disabled:bg-bg-neutral ${className}`}
+      className={`inline-flex items-center justify-center rounded-3xl ${typography.textXs} transition-colors duration-150 ease-out focus:outline-none focus:ring-2 focus:ring-ring-focus focus:ring-offset-2 focus:ring-offset-ring-focus ${baseClasses} disabled:opacity-40 disabled:cursor-not-allowed disabled:text-text-secondary disabled:bg-bg-neutral ${className}`}
     >
       {children}
     </button>

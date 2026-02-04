@@ -33,7 +33,7 @@ export function LocaleToggle() {
   const ariaLabel = `Switch language to ${otherLocale === 'en' ? 'English' : 'German'}`;
 
   const handleToggle = () => {
-    router.replace(newPath);
+    router.push(newPath, { scroll: false });
   };
 
   return (

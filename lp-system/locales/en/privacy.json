@@ -1,0 +1,22 @@
+{
+  "title": "Mock Privacy Policy",
+  "content": {
+    "sections": [
+      {
+        "heading": "Mock Section 1",
+        "paragraphs": [
+          "Mock paragraph 1 for Privacy Policy page.",
+          "Mock paragraph 2 for Privacy Policy page."
+        ]
+      },
+      {
+        "heading": "Mock Section 2",
+        "paragraphs": [
+          "Mock paragraph 3 for Privacy Policy page.",
+          "Mock paragraph 4 for Privacy Policy page."
+        ]
+      }
+    ]
+  }
+}
+

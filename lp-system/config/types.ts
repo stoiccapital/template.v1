@@ -8,6 +8,10 @@ export type SectionHeroCopy = {
 
 export type SectionSocialProofCopy = {
   label?: string;
+  logos?: {
+    alt: string;
+    src?: string;
+  }[];
 };
 
 export type SectionValuePropsCopy = {
@@ -177,7 +181,45 @@ export type SectionMetricsCopy = {
   }[];
 };
 
+export type NavbarCopy = {
+  brand: string;
+  links: {
+    features: string;
+    pricing: string;
+    useCases: string;
+    faq: string;
+  };
+  cta: string;
+  ariaLabels: {
+    goToHomepage: string;
+    switchToEnglish: string;
+    switchToGerman: string;
+    openMenu: string;
+    closeMenu: string;
+  };
+};
+
+export type FooterCopy = {
+  copyright: string;
+  links: {
+    privacy: string;
+    terms: string;
+    contact: string;
+  };
+};
+
+export type LegalPageCopy = {
+  title: string;
+  content: {
+    sections: {
+      heading?: string;
+      paragraphs: string[];
+    }[];
+  };
+};
+
 export type PageCopyConfig = {
+  navbar?: NavbarCopy;
   hero: SectionHeroCopy;
   socialProof: SectionSocialProofCopy;
   valueProps: SectionValuePropsCopy;
@@ -191,5 +233,6 @@ export type PageCopyConfig = {
   pricing?: SectionPricingCopy;
   faq?: SectionFAQCopy;
   finalCta: SectionFinalCtaCopy;
+  footer?: FooterCopy;
 };
 
